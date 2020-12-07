@@ -1,0 +1,3390 @@
+Getting filenames ...
+Exracting Individual Cycles
+TRAIN DETAILS
+CLASS PROBS [2878. 1474.  683.  436.]
+Device to ID {'AKGC417L': 0, 'Meditron': 1, 'LittC2SE': 2, 'Litt3200': 3}
+DEVICE ID 0 size 3436
+DEVICE ID 1 size 1288
+DEVICE ID 2 size 397
+DEVICE ID 3 size 350
+LEN AUDIO DATA 5471
+==> Computing mean and std..
+MEAN tensor([0.5091, 0.1739, 0.4363])
+STD tensor([0.2288, 0.1285, 0.0743])
+Getting filenames ...
+Exracting Individual Cycles
+TRAIN DETAILS
+CLASS PROBS [2878. 1474.  683.  436.]
+Device to ID {'AKGC417L': 0, 'Meditron': 1, 'LittC2SE': 2, 'Litt3200': 3}
+DEVICE ID 0 size 3436
+DEVICE ID 1 size 1288
+DEVICE ID 2 size 397
+DEVICE ID 3 size 350
+LEN AUDIO DATA 5471
+Getting filenames ...
+Exracting Individual Cycles
+TEST DETAILS
+CLASS PROBS [775. 391. 206.  72.]
+Device to ID {'AKGC417L': 0, 'Meditron': 1, 'LittC2SE': 2, 'Litt3200': 3}
+DEVICE ID 0 size 910
+DEVICE ID 1 size 180
+DEVICE ID 2 size 197
+DEVICE ID 3 size 157
+LEN AUDIO DATA 1444
+Train Size 5471
+Test Size 1444
+Class probs [0.52604643 0.26942058 0.12484007 0.07969293]
+DATA LOADED
+Params to learn:
+	 module.model_ft.conv1.weight
+	 module.model_ft.bn1.weight
+	 module.model_ft.bn1.bias
+	 module.model_ft.layer1.0.conv1.weight
+	 module.model_ft.layer1.0.bn1.weight
+	 module.model_ft.layer1.0.bn1.bias
+	 module.model_ft.layer1.0.conv2.weight
+	 module.model_ft.layer1.0.bn2.weight
+	 module.model_ft.layer1.0.bn2.bias
+	 module.model_ft.layer1.1.conv1.weight
+	 module.model_ft.layer1.1.bn1.weight
+	 module.model_ft.layer1.1.bn1.bias
+	 module.model_ft.layer1.1.conv2.weight
+	 module.model_ft.layer1.1.bn2.weight
+	 module.model_ft.layer1.1.bn2.bias
+	 module.model_ft.layer1.2.conv1.weight
+	 module.model_ft.layer1.2.bn1.weight
+	 module.model_ft.layer1.2.bn1.bias
+	 module.model_ft.layer1.2.conv2.weight
+	 module.model_ft.layer1.2.bn2.weight
+	 module.model_ft.layer1.2.bn2.bias
+	 module.model_ft.layer2.0.conv1.weight
+	 module.model_ft.layer2.0.bn1.weight
+	 module.model_ft.layer2.0.bn1.bias
+	 module.model_ft.layer2.0.conv2.weight
+	 module.model_ft.layer2.0.bn2.weight
+	 module.model_ft.layer2.0.bn2.bias
+	 module.model_ft.layer2.0.downsample.0.weight
+	 module.model_ft.layer2.0.downsample.1.weight
+	 module.model_ft.layer2.0.downsample.1.bias
+	 module.model_ft.layer2.1.conv1.weight
+	 module.model_ft.layer2.1.bn1.weight
+	 module.model_ft.layer2.1.bn1.bias
+	 module.model_ft.layer2.1.conv2.weight
+	 module.model_ft.layer2.1.bn2.weight
+	 module.model_ft.layer2.1.bn2.bias
+	 module.model_ft.layer2.2.conv1.weight
+	 module.model_ft.layer2.2.bn1.weight
+	 module.model_ft.layer2.2.bn1.bias
+	 module.model_ft.layer2.2.conv2.weight
+	 module.model_ft.layer2.2.bn2.weight
+	 module.model_ft.layer2.2.bn2.bias
+	 module.model_ft.layer2.3.conv1.weight
+	 module.model_ft.layer2.3.bn1.weight
+	 module.model_ft.layer2.3.bn1.bias
+	 module.model_ft.layer2.3.conv2.weight
+	 module.model_ft.layer2.3.bn2.weight
+	 module.model_ft.layer2.3.bn2.bias
+	 module.model_ft.layer3.0.conv1.weight
+	 module.model_ft.layer3.0.bn1.weight
+	 module.model_ft.layer3.0.bn1.bias
+	 module.model_ft.layer3.0.conv2.weight
+	 module.model_ft.layer3.0.bn2.weight
+	 module.model_ft.layer3.0.bn2.bias
+	 module.model_ft.layer3.0.downsample.0.weight
+	 module.model_ft.layer3.0.downsample.1.weight
+	 module.model_ft.layer3.0.downsample.1.bias
+	 module.model_ft.layer3.1.conv1.weight
+	 module.model_ft.layer3.1.bn1.weight
+	 module.model_ft.layer3.1.bn1.bias
+	 module.model_ft.layer3.1.conv2.weight
+	 module.model_ft.layer3.1.bn2.weight
+	 module.model_ft.layer3.1.bn2.bias
+	 module.model_ft.layer3.2.conv1.weight
+	 module.model_ft.layer3.2.bn1.weight
+	 module.model_ft.layer3.2.bn1.bias
+	 module.model_ft.layer3.2.conv2.weight
+	 module.model_ft.layer3.2.bn2.weight
+	 module.model_ft.layer3.2.bn2.bias
+	 module.model_ft.layer3.3.conv1.weight
+	 module.model_ft.layer3.3.bn1.weight
+	 module.model_ft.layer3.3.bn1.bias
+	 module.model_ft.layer3.3.conv2.weight
+	 module.model_ft.layer3.3.bn2.weight
+	 module.model_ft.layer3.3.bn2.bias
+	 module.model_ft.layer3.4.conv1.weight
+	 module.model_ft.layer3.4.bn1.weight
+	 module.model_ft.layer3.4.bn1.bias
+	 module.model_ft.layer3.4.conv2.weight
+	 module.model_ft.layer3.4.bn2.weight
+	 module.model_ft.layer3.4.bn2.bias
+	 module.model_ft.layer3.5.conv1.weight
+	 module.model_ft.layer3.5.bn1.weight
+	 module.model_ft.layer3.5.bn1.bias
+	 module.model_ft.layer3.5.conv2.weight
+	 module.model_ft.layer3.5.bn2.weight
+	 module.model_ft.layer3.5.bn2.bias
+	 module.model_ft.layer4.0.conv1.weight
+	 module.model_ft.layer4.0.bn1.weight
+	 module.model_ft.layer4.0.bn1.bias
+	 module.model_ft.layer4.0.conv2.weight
+	 module.model_ft.layer4.0.bn2.weight
+	 module.model_ft.layer4.0.bn2.bias
+	 module.model_ft.layer4.0.downsample.0.weight
+	 module.model_ft.layer4.0.downsample.1.weight
+	 module.model_ft.layer4.0.downsample.1.bias
+	 module.model_ft.layer4.1.conv1.weight
+	 module.model_ft.layer4.1.bn1.weight
+	 module.model_ft.layer4.1.bn1.bias
+	 module.model_ft.layer4.1.conv2.weight
+	 module.model_ft.layer4.1.bn2.weight
+	 module.model_ft.layer4.1.bn2.bias
+	 module.model_ft.layer4.2.conv1.weight
+	 module.model_ft.layer4.2.bn1.weight
+	 module.model_ft.layer4.2.bn1.bias
+	 module.model_ft.layer4.2.conv2.weight
+	 module.model_ft.layer4.2.bn2.weight
+	 module.model_ft.layer4.2.bn2.bias
+	 module.model_ft.fc.1.weight
+	 module.model_ft.fc.1.bias
+	 module.model_ft.fc.4.weight
+	 module.model_ft.fc.4.bias
+	 module.cls_fc.weight
+	 module.cls_fc.bias
+---------------------------------------------
+epoch 0 iter 85/86 Train Total loss: 1.3350781202316284
+Train Accuracy: 0.2707000548345823
+Classwise_Losses Normal: 1.9095374081157208, Crackle: 1.2780617744579552, Wheeze: 1.2455765416631026, Both: 1.2846952586108074
+*************Metrics******************
+Se: 0.35469667316379433, Sp: 0.022415039766998192, Score: 0.18855585646539627
+Normal: 0.022415039766998192, Crackle: 0.32432432430063374, Wheeze: 0.4148698884449911, Both: 0.3260553129311459
+testing......
+Val Accuracy: 0.2257617728531856
+epoch 0, Validation BCE loss: 1.5021480321884155
+Confusion Matrix [[  0 475 129 171]
+ [  0 276  38  77]
+ [  0 113  15  78]
+ [  0  31   6  35]]
+Accuracy Score 0.2257617728531856
+BEST ACCURACY TILL NOW -1
+Best ACC achieved...... 0.2257617728531856
+---------------------------------------------
+epoch 1 iter 85/86 Train Total loss: 1.297348976135254
+Train Accuracy: 0.3034180222993968
+Classwise_Losses Normal: 2.238536626835866, Crackle: 1.192147192805576, Wheeze: 1.1792278423849143, Both: 1.19798079236694
+*************Metrics******************
+Se: 0.4055704861662177, Sp: 0.0, Score: 0.20278524308310886
+Normal: 0.0, Crackle: 0.4070605187026614, Wheeze: 0.44301886789109296, Both: 0.36811594200231046
+testing......
+Val Accuracy: 0.21329639889196675
+epoch 1, Validation BCE loss: 1.512768268585205
+Confusion Matrix [[  0 371 211 193]
+ [  0 239  74  78]
+ [  0  72  32 102]
+ [  0  22  13  37]]
+Accuracy Score 0.21329639889196675
+BEST ACCURACY TILL NOW 0.2257617728531856
+---------------------------------------------
+epoch 2 iter 85/86 Train Total loss: 1.270914077758789
+Train Accuracy: 0.32151343447267405
+Classwise_Losses Normal: 2.297358201801467, Crackle: 1.1419717578784279, Wheeze: 1.1556051142764896, Both: 1.1797785980685704
+*************Metrics******************
+Se: 0.4265276430339578, Sp: 0.0, Score: 0.2132638215169789
+Normal: 0.0, Crackle: 0.5084151472294239, Wheeze: 0.4344569288064078, Both: 0.3330887747371175
+testing......
+Val Accuracy: 0.23684210526315788
+epoch 2, Validation BCE loss: 1.4979193210601807
+Confusion Matrix [[  0 451 215 109]
+ [  0 281  61  49]
+ [  0 119  31  56]
+ [  0  35   7  30]]
+Accuracy Score 0.23684210526315788
+BEST ACCURACY TILL NOW 0.2257617728531856
+Best ACC achieved...... 0.23684210526315788
+---------------------------------------------
+epoch 3 iter 85/86 Train Total loss: 1.2372795343399048
+Train Accuracy: 0.3655638822884299
+Classwise_Losses Normal: 2.27238665643728, Crackle: 1.1269639232155186, Wheeze: 1.1112508212313004, Both: 1.1402695788431203
+*************Metrics******************
+Se: 0.48239266759654664, Sp: 0.0, Score: 0.24119633379827332
+Normal: 0.0, Crackle: 0.545189504333441, Wheeze: 0.5032258064155394, Both: 0.3988397389123394
+testing......
+Val Accuracy: 0.24376731301939059
+epoch 3, Validation BCE loss: 1.5275532007217407
+Confusion Matrix [[  0 312 365  98]
+ [  0 238 108  45]
+ [  0  48  99  59]
+ [  0  15  42  15]]
+Accuracy Score 0.24376731301939059
+BEST ACCURACY TILL NOW 0.23684210526315788
+Best ACC achieved...... 0.24376731301939059
+---------------------------------------------
+epoch 4 iter 85/86 Train Total loss: 1.2019158601760864
+Train Accuracy: 0.38932553463717784
+Classwise_Losses Normal: 2.2850107729784552, Crackle: 1.0469384655439653, Wheeze: 1.059886224110594, Both: 1.1388888419164127
+*************Metrics******************
+Se: 0.5186267348050675, Sp: 0.0, Score: 0.25931336740253375
+Normal: 0.0, Crackle: 0.6117318435327004, Wheeze: 0.57485029935817, Both: 0.3629574308914894
+testing......
+Val Accuracy: 0.27631578947368424
+epoch 4, Validation BCE loss: 1.4309831857681274
+Confusion Matrix [[  0 393 313  69]
+ [  0 282  69  40]
+ [  0  61  95  50]
+ [  0  20  30  22]]
+Accuracy Score 0.27631578947368424
+BEST ACCURACY TILL NOW 0.24376731301939059
+Best ACC achieved...... 0.27631578947368424
+---------------------------------------------
+epoch 5 iter 85/86 Train Total loss: 1.1290098428726196
+Train Accuracy: 0.42679583257174186
+Classwise_Losses Normal: 2.2838100066711737, Crackle: 0.9648210103894221, Wheeze: 0.9663794230212965, Both: 1.0596008247861237
+*************Metrics******************
+Se: 0.5702075701657968, Sp: 0.0, Score: 0.2851037850828984
+Normal: 0.0, Crackle: 0.6549925483863642, Wheeze: 0.6123348017171562, Both: 0.44716031628704817
+testing......
+Val Accuracy: 0.2915512465373961
+epoch 5, Validation BCE loss: 1.3695213794708252
+Confusion Matrix [[  0 390 295  90]
+ [  0 288  51  52]
+ [  0  45 119  42]
+ [  0  18  40  14]]
+Accuracy Score 0.2915512465373961
+BEST ACCURACY TILL NOW 0.27631578947368424
+Best ACC achieved...... 0.2915512465373961
+---------------------------------------------
+epoch 6 iter 85/86 Train Total loss: 1.0490330457687378
+Train Accuracy: 0.4732224456223725
+Classwise_Losses Normal: 2.2191181136649543, Crackle: 0.836394989570203, Wheeze: 0.8970462287921539, Both: 0.9976796728308364
+*************Metrics******************
+Se: 0.6348700342838497, Sp: 0.0, Score: 0.31743501714192485
+Normal: 0.0, Crackle: 0.7638190954225543, Wheeze: 0.6422703509602488, Both: 0.4940564635591341
+testing......
+Val Accuracy: 0.2984764542936288
+epoch 6, Validation BCE loss: 1.3181713819503784
+Confusion Matrix [[  0 443 271  61]
+ [  0 310  45  36]
+ [  0  50 104  52]
+ [  0  13  42  17]]
+Accuracy Score 0.2984764542936288
+BEST ACCURACY TILL NOW 0.2915512465373961
+Best ACC achieved...... 0.2984764542936288
+---------------------------------------------
+epoch 7 iter 85/86 Train Total loss: 0.9552909731864929
+Train Accuracy: 0.5152622920855419
+Classwise_Losses Normal: 2.1481145539304665, Crackle: 0.7343707307457836, Wheeze: 0.7876732661407508, Both: 0.9461671955764639
+*************Metrics******************
+Se: 0.6868145259063992, Sp: 0.0007309941519933485, Score: 0.3437727600291963
+Normal: 0.0007309941519933485, Crackle: 0.8124076808853467, Wheeze: 0.6912408758619533, Both: 0.559100797638934
+testing......
+Val Accuracy: 0.3095567867036011
+epoch 7, Validation BCE loss: 1.3359400033950806
+Confusion Matrix [[  0 512 217  46]
+ [  0 331  26  34]
+ [  0  52  87  67]
+ [  0  14  29  29]]
+Accuracy Score 0.3095567867036011
+BEST ACCURACY TILL NOW 0.2984764542936288
+Best ACC achieved...... 0.3095567867036011
+---------------------------------------------
+epoch 8 iter 85/86 Train Total loss: 0.8928387761116028
+Train Accuracy: 0.5404861999634436
+Classwise_Losses Normal: 2.082499158331544, Crackle: 0.6590895062047348, Wheeze: 0.7561873779129934, Both: 0.8483069016474557
+*************Metrics******************
+Se: 0.7274292742390582, Sp: 0.0, Score: 0.3637146371195291
+Normal: 0.0, Crackle: 0.8562185477457788, Wheeze: 0.7079970652451947, Both: 0.6109839816467595
+testing......
+Val Accuracy: 0.296398891966759
+epoch 8, Validation BCE loss: 1.2640990018844604
+Confusion Matrix [[  0 498 226  51]
+ [  0 316  30  45]
+ [  0  52  98  56]
+ [  0  15  43  14]]
+Accuracy Score 0.296398891966759
+BEST ACCURACY TILL NOW 0.3095567867036011
+---------------------------------------------
+epoch 9 iter 85/86 Train Total loss: 0.8138156533241272
+Train Accuracy: 0.5743008590751233
+Classwise_Losses Normal: 1.9864132144940994, Crackle: 0.5937180687149313, Wheeze: 0.7174560382087881, Both: 0.7497894706138568
+*************Metrics******************
+Se: 0.7567437379029328, Sp: 0.0, Score: 0.3783718689514664
+Normal: 0.0, Crackle: 0.8681003583607098, Wheeze: 0.7258308156551488, Both: 0.6769016049771877
+testing......
+Val Accuracy: 0.30678670360110805
+epoch 9, Validation BCE loss: 1.3749146461486816
+Confusion Matrix [[  0 500 210  65]
+ [  0 327  24  40]
+ [  0  54  85  67]
+ [  0  14  27  31]]
+Accuracy Score 0.30678670360110805
+BEST ACCURACY TILL NOW 0.3095567867036011
+---------------------------------------------
+epoch 10 iter 85/86 Train Total loss: 0.7284165620803833
+Train Accuracy: 0.6026320599524767
+Classwise_Losses Normal: 1.8637847088519721, Crackle: 0.5583592620629522, Wheeze: 0.5866106682708567, Both: 0.6353340412431654
+*************Metrics******************
+Se: 0.8089721468467609, Sp: 0.010608203676760382, Score: 0.40979017526176065
+Normal: 0.010608203676760382, Crackle: 0.8811659192166543, Wheeze: 0.7990936555287694, Both: 0.7491039425986307
+testing......
+Val Accuracy: 0.3137119113573407
+epoch 10, Validation BCE loss: 1.2920572757720947
+Confusion Matrix [[  1 521 219  34]
+ [  0 334  28  29]
+ [  0  44 101  61]
+ [  0  16  39  17]]
+Accuracy Score 0.3137119113573407
+BEST ACCURACY TILL NOW 0.3095567867036011
+Best ACC achieved...... 0.3137119113573407
+---------------------------------------------
+epoch 11 iter 85/86 Train Total loss: 0.6351326704025269
+Train Accuracy: 0.6464997258270883
+Classwise_Losses Normal: 1.9077452181394283, Crackle: 0.47053709680580164, Wheeze: 0.5085356867571494, Both: 0.525634602417066
+*************Metrics******************
+Se: 0.8446415727035742, Sp: 0.010769230768402369, Score: 0.4277054017359883
+Normal: 0.010769230768402369, Crackle: 0.8918918918284573, Wheeze: 0.8414634145737832, Both: 0.7994164842597071
+testing......
+Val Accuracy: 0.2915512465373961
+epoch 11, Validation BCE loss: 1.5436478853225708
+Confusion Matrix [[  9 483 228  55]
+ [  2 296  42  51]
+ [  0  36  91  79]
+ [  0  11  36  25]]
+Accuracy Score 0.2915512465373961
+BEST ACCURACY TILL NOW 0.3137119113573407
+---------------------------------------------
+epoch 12 iter 85/86 Train Total loss: 0.5386360883712769
+Train Accuracy: 0.6698958142935477
+Classwise_Losses Normal: 1.7828155213748145, Crackle: 0.419974985621757, Wheeze: 0.37730518254415746, Both: 0.39492077088255106
+*************Metrics******************
+Se: 0.8853987729409524, Sp: 0.04083094555581441, Score: 0.4631148592483834
+Normal: 0.04083094555581441, Crackle: 0.9135531134861867, Wheeze: 0.8877980364033803, Both: 0.8528037382513394
+testing......
+Val Accuracy: 0.32894736842105265
+epoch 12, Validation BCE loss: 1.4310472011566162
+Confusion Matrix [[ 33 496 218  28]
+ [  5 316  34  36]
+ [  3  40 118  45]
+ [  1  10  53   8]]
+Accuracy Score 0.32894736842105265
+BEST ACCURACY TILL NOW 0.3137119113573407
+Best ACC achieved...... 0.32894736842105265
+---------------------------------------------
+epoch 13 iter 85/86 Train Total loss: 0.49953681230545044
+Train Accuracy: 0.6974958874063242
+Classwise_Losses Normal: 1.6632727439901982, Crackle: 0.4008736574026323, Wheeze: 0.3476782651100878, Both: 0.3551945867778357
+*************Metrics******************
+Se: 0.8973921520182263, Sp: 0.0979532163671087, Score: 0.4976726841926675
+Normal: 0.0979532163671087, Crackle: 0.9286775630810791, Wheeze: 0.898207885240272, Both: 0.8656387664562675
+testing......
+Val Accuracy: 0.3628808864265928
+epoch 13, Validation BCE loss: 1.266204833984375
+Confusion Matrix [[ 67 520 157  31]
+ [ 12 330  31  18]
+ [ 18  40 112  36]
+ [  2  11  44  15]]
+Accuracy Score 0.3628808864265928
+BEST ACCURACY TILL NOW 0.32894736842105265
+Best ACC achieved...... 0.3628808864265928
+---------------------------------------------
+epoch 14 iter 85/86 Train Total loss: 0.47085079550743103
+Train Accuracy: 0.7102906232864192
+Classwise_Losses Normal: 1.657950769738758, Crackle: 0.39654285935275163, Wheeze: 0.30581093111024615, Both: 0.3205029956395721
+*************Metrics******************
+Se: 0.901837524112536, Sp: 0.11685393257551657, Score: 0.5093457283440264
+Normal: 0.11685393257551657, Crackle: 0.9174579984720631, Wheeze: 0.9033430231901641, Both: 0.8849748381822449
+testing......
+Val Accuracy: 0.3621883656509695
+epoch 14, Validation BCE loss: 1.4814430475234985
+Confusion Matrix [[ 56 548 109  62]
+ [  3 355  14  19]
+ [ 12  61  96  37]
+ [  1  16  39  16]]
+Accuracy Score 0.3621883656509695
+BEST ACCURACY TILL NOW 0.3628808864265928
+---------------------------------------------
+epoch 15 iter 85/86 Train Total loss: 0.4485354423522949
+Train Accuracy: 0.7177846828733321
+Classwise_Losses Normal: 1.6463102707639337, Crackle: 0.3740111034572195, Wheeze: 0.2884774740698271, Both: 0.2789402703935716
+*************Metrics******************
+Se: 0.91083111212182, Sp: 0.12499999999069941, Score: 0.5179155560562597
+Normal: 0.12499999999069941, Crackle: 0.9173313994983807, Wheeze: 0.9143064632596728, Both: 0.900802333997024
+testing......
+Val Accuracy: 0.3545706371191136
+epoch 15, Validation BCE loss: 1.7400763034820557
+Confusion Matrix [[ 98 378 264  35]
+ [ 14 274  65  38]
+ [  9  24 130  43]
+ [  1   9  52  10]]
+Accuracy Score 0.3545706371191136
+BEST ACCURACY TILL NOW 0.3628808864265928
+---------------------------------------------
+epoch 16 iter 85/86 Train Total loss: 0.4343370795249939
+Train Accuracy: 0.7232681411076585
+Classwise_Losses Normal: 1.5342023458329248, Crackle: 0.3777409414898699, Wheeze: 0.24573279727816746, Both: 0.2741449323192966
+*************Metrics******************
+Se: 0.9162524850211542, Sp: 0.1865929509200696, Score: 0.5514227179706119
+Normal: 0.1865929509200696, Crackle: 0.9187116563712645, Wheeze: 0.9304659497540886, Both: 0.8988679244604629
+testing......
+Val Accuracy: 0.40166204986149584
+epoch 16, Validation BCE loss: 1.355388879776001
+Confusion Matrix [[151 422 190  12]
+ [ 41 290  43  17]
+ [ 18  38 122  28]
+ [  4  12  39  17]]
+Accuracy Score 0.40166204986149584
+BEST ACCURACY TILL NOW 0.3628808864265928
+Best ACC achieved...... 0.40166204986149584
+---------------------------------------------
+epoch 17 iter 85/86 Train Total loss: 0.4059564471244812
+Train Accuracy: 0.7404496435752147
+Classwise_Losses Normal: 1.4718296141985228, Crackle: 0.3395676522051793, Wheeze: 0.2636593271062064, Both: 0.24038059855158533
+*************Metrics******************
+Se: 0.919901719833914, Sp: 0.21912919341762108, Score: 0.5695154566257675
+Normal: 0.21912919341762108, Crackle: 0.9260089685406572, Wheeze: 0.9212303075077848, Both: 0.9127948534015158
+testing......
+Val Accuracy: 0.3940443213296399
+epoch 17, Validation BCE loss: 1.5171470642089844
+Confusion Matrix [[108 438 211  18]
+ [ 11 321  31  28]
+ [ 14  32 126  34]
+ [  2  11  45  14]]
+Accuracy Score 0.3940443213296399
+BEST ACCURACY TILL NOW 0.40166204986149584
+---------------------------------------------
+epoch 18 iter 85/86 Train Total loss: 0.35593894124031067
+Train Accuracy: 0.7576311460427709
+Classwise_Losses Normal: 1.4849708561226462, Crackle: 0.287202892692107, Wheeze: 0.20239307931216902, Both: 0.17755959036087338
+*************Metrics******************
+Se: 0.9399014777630615, Sp: 0.23316796596504835, Score: 0.586534721864055
+Normal: 0.23316796596504835, Crackle: 0.9408759123400822, Wheeze: 0.9439393938678835, Both: 0.9350364962821143
+testing......
+Val Accuracy: 0.3767313019390582
+epoch 18, Validation BCE loss: 1.7131427526474
+Confusion Matrix [[142 396 199  38]
+ [ 26 284  33  48]
+ [ 17  38 102  49]
+ [  3  12  41  16]]
+Accuracy Score 0.3767313019390582
+BEST ACCURACY TILL NOW 0.40166204986149584
+---------------------------------------------
+epoch 19 iter 85/86 Train Total loss: 0.32391297817230225
+Train Accuracy: 0.7804788886857978
+Classwise_Losses Normal: 1.3819122015009702, Crackle: 0.2880101784052073, Wheeze: 0.1717759897198774, Both: 0.15728804301803387
+*************Metrics******************
+Se: 0.9420501581975615, Sp: 0.29398826977316805, Score: 0.6180192139853649
+Normal: 0.29398826977316805, Crackle: 0.9345372459793426, Wheeze: 0.9517482516816961, Both: 0.9391691393962042
+testing......
+Val Accuracy: 0.4203601108033241
+epoch 19, Validation BCE loss: 1.4932385683059692
+Confusion Matrix [[201 385 168  21]
+ [ 40 286  36  29]
+ [ 29  30 102  45]
+ [  5  11  38  18]]
+Accuracy Score 0.4203601108033241
+BEST ACCURACY TILL NOW 0.40166204986149584
+Best ACC achieved...... 0.4203601108033241
+---------------------------------------------
+epoch 20 iter 85/86 Train Total loss: 0.3551168739795685
+Train Accuracy: 0.7744470846280387
+Classwise_Losses Normal: 1.3793713428263914, Crackle: 0.31842184852785554, Wheeze: 0.20549594238351965, Both: 0.19222505514967933
+*************Metrics******************
+Se: 0.9271927680727687, Sp: 0.3207547169578553, Score: 0.623973742515312
+Normal: 0.3207547169578553, Crackle: 0.9145361577125979, Wheeze: 0.9349999999332144, Both: 0.9320241691138955
+testing......
+Val Accuracy: 0.45914127423822715
+epoch 20, Validation BCE loss: 1.4564976692199707
+Confusion Matrix [[214 380 165  16]
+ [ 27 322  27  15]
+ [ 28  31 111  36]
+ [  5  15  36  16]]
+Accuracy Score 0.45914127423822715
+BEST ACCURACY TILL NOW 0.4203601108033241
+Best ACC achieved...... 0.45914127423822715
+---------------------------------------------
+epoch 21 iter 85/86 Train Total loss: 0.2981357276439667
+Train Accuracy: 0.7971120453299213
+Classwise_Losses Normal: 1.3029606789673278, Crackle: 0.24857178412482378, Wheeze: 0.14414404910799603, Both: 0.15059428526300134
+*************Metrics******************
+Se: 0.9520313264107663, Sp: 0.34007220214151107, Score: 0.6460517642761386
+Normal: 0.34007220214151107, Crackle: 0.9431900946144801, Wheeze: 0.9604772557076453, Both: 0.9526239066361062
+testing......
+Val Accuracy: 0.4265927977839335
+epoch 21, Validation BCE loss: 1.6520384550094604
+Confusion Matrix [[198 385 166  26]
+ [ 40 301  20  30]
+ [ 26  31  97  52]
+ [  6  11  35  20]]
+Accuracy Score 0.4265927977839335
+BEST ACCURACY TILL NOW 0.45914127423822715
+---------------------------------------------
+epoch 22 iter 85/86 Train Total loss: 0.29226523637771606
+Train Accuracy: 0.8091756534454395
+Classwise_Losses Normal: 1.2542134859129104, Crackle: 0.26510196978109024, Wheeze: 0.14080069979270385, Both: 0.14161222659468098
+*************Metrics******************
+Se: 0.9497315763091949, Sp: 0.38965768387548017, Score: 0.6696946300923375
+Normal: 0.38965768387548017, Crackle: 0.9315985129418887, Wheeze: 0.9617083946272675, Both: 0.9555555554870571
+testing......
+Val Accuracy: 0.4182825484764543
+epoch 22, Validation BCE loss: 1.7409011125564575
+Confusion Matrix [[192 410 155  18]
+ [ 36 293  47  15]
+ [ 29  35 113  29]
+ [  4  13  49   6]]
+Accuracy Score 0.4182825484764543
+BEST ACCURACY TILL NOW 0.45914127423822715
+---------------------------------------------
+epoch 23 iter 85/86 Train Total loss: 0.27380645275115967
+Train Accuracy: 0.8170352769146407
+Classwise_Losses Normal: 1.260494094246184, Crackle: 0.23500266210720167, Wheeze: 0.14589191238134525, Both: 0.12099507767383903
+*************Metrics******************
+Se: 0.9525186791309339, Sp: 0.39183055972830333, Score: 0.6721746194296186
+Normal: 0.39183055972830333, Crackle: 0.9420289854389835, Wheeze: 0.9531914892941, Both: 0.9624724061101935
+testing......
+Val Accuracy: 0.44806094182825484
+epoch 23, Validation BCE loss: 1.6044645309448242
+Confusion Matrix [[209 410 141  15]
+ [ 37 319  26   9]
+ [ 31  33 110  32]
+ [  7  15  41   9]]
+Accuracy Score 0.44806094182825484
+BEST ACCURACY TILL NOW 0.45914127423822715
+---------------------------------------------
+epoch 24 iter 85/86 Train Total loss: 0.28036606311798096
+Train Accuracy: 0.8241637726192652
+Classwise_Losses Normal: 1.210832648705881, Crackle: 0.24523736346749964, Wheeze: 0.12718231202961452, Both: 0.14812438421391266
+*************Metrics******************
+Se: 0.9511837929496327, Sp: 0.4454148471291547, Score: 0.6982993200393937
+Normal: 0.4454148471291547, Crackle: 0.9338028168356478, Wheeze: 0.9654665686285477, Both: 0.9551671731796987
+testing......
+Val Accuracy: 0.5332409972299169
+epoch 24, Validation BCE loss: 1.4872559309005737
+Confusion Matrix [[372 252 134  17]
+ [ 70 275  29  17]
+ [ 36  22 114  34]
+ [  4  11  48   9]]
+Accuracy Score 0.5332409972299169
+BEST ACCURACY TILL NOW 0.45914127423822715
+Best ACC achieved...... 0.5332409972299169
+---------------------------------------------
+epoch 25 iter 85/86 Train Total loss: 0.25470224022865295
+Train Accuracy: 0.8387863279108023
+Classwise_Losses Normal: 1.1148896076591523, Crackle: 0.23630827217521125, Wheeze: 0.13752675089279962, Both: 0.10354181735073069
+*************Metrics******************
+Se: 0.95657447833892, Sp: 0.47887323940112136, Score: 0.7177238588700207
+Normal: 0.47887323940112136, Crackle: 0.9414739883712809, Wheeze: 0.958426132074356, Both: 0.96980589496982
+testing......
+Val Accuracy: 0.5277008310249307
+epoch 25, Validation BCE loss: 1.498752474784851
+Confusion Matrix [[396 211 156  12]
+ [ 75 251  35  30]
+ [ 42  22 100  42]
+ [ 10   6  41  15]]
+Accuracy Score 0.5277008310249307
+BEST ACCURACY TILL NOW 0.5332409972299169
+---------------------------------------------
+epoch 26 iter 85/86 Train Total loss: 0.25624799728393555
+Train Accuracy: 0.8378724182050813
+Classwise_Losses Normal: 1.0902789889137336, Crackle: 0.2184272966796347, Wheeze: 0.14647182045424412, Both: 0.11446201500039686
+*************Metrics******************
+Se: 0.9522643818150113, Sp: 0.5007215006853737, Score: 0.7264929412501925
+Normal: 0.5007215006853737, Crackle: 0.9407142856470919, Wheeze: 0.9567486949323828, Both: 0.9598214285000134
+testing......
+Val Accuracy: 0.48822714681440443
+epoch 26, Validation BCE loss: 1.5398776531219482
+Confusion Matrix [[282 400  79  14]
+ [ 39 327  14  11]
+ [ 42  48  76  40]
+ [  7  21  24  20]]
+Accuracy Score 0.48822714681440443
+BEST ACCURACY TILL NOW 0.5332409972299169
+---------------------------------------------
+epoch 27 iter 85/86 Train Total loss: 0.23870408535003662
+Train Accuracy: 0.8455492597331383
+Classwise_Losses Normal: 1.1121568273239095, Crackle: 0.20862108852334418, Wheeze: 0.11145874908230984, Both: 0.10905400380002106
+*************Metrics******************
+Se: 0.9543147207429794, Sp: 0.50824587702337, Score: 0.7312802988831747
+Normal: 0.50824587702337, Crackle: 0.9351585013735477, Wheeze: 0.9648135115436445, Both: 0.9631024095660315
+testing......
+Val Accuracy: 0.5
+epoch 27, Validation BCE loss: 1.7184773683547974
+Confusion Matrix [[313 321 126  15]
+ [ 52 295  33  11]
+ [ 41  24  99  42]
+ [  8  11  38  15]]
+Accuracy Score 0.5
+BEST ACCURACY TILL NOW 0.5332409972299169
+---------------------------------------------
+epoch 28 iter 85/86 Train Total loss: 0.22244204580783844
+Train Accuracy: 0.85212940961433
+Classwise_Losses Normal: 1.023006705932679, Crackle: 0.21352947169826403, Wheeze: 0.0900445644667649, Both: 0.09143115571876638
+*************Metrics******************
+Se: 0.9600487210017018, Sp: 0.5278184479847864, Score: 0.7439335844932441
+Normal: 0.5278184479847864, Crackle: 0.9383070300618145, Wheeze: 0.9714076245622136, Both: 0.9710467705292468
+testing......
+Val Accuracy: 0.47714681440443213
+epoch 28, Validation BCE loss: 1.7593204975128174
+Confusion Matrix [[269 357 127  22]
+ [ 41 311  28  11]
+ [ 40  33  99  34]
+ [  8  11  43  10]]
+Accuracy Score 0.47714681440443213
+BEST ACCURACY TILL NOW 0.5332409972299169
+---------------------------------------------
+epoch 29 iter 85/86 Train Total loss: 0.21385429799556732
+Train Accuracy: 0.8665691829647231
+Classwise_Losses Normal: 0.9859563704085637, Crackle: 0.20131527028490886, Wheeze: 0.09739925468880926, Both: 0.10170385398224911
+*************Metrics******************
+Se: 0.9617788460844872, Sp: 0.5644546147548091, Score: 0.7631167304196481
+Normal: 0.5644546147548091, Crackle: 0.9438700147013391, Wheeze: 0.9697841725921019, Both: 0.9710451976715364
+testing......
+Val Accuracy: 0.5623268698060941
+epoch 29, Validation BCE loss: 1.5639911890029907
+Confusion Matrix [[404 275  82  14]
+ [ 64 305  13   9]
+ [ 45  34  89  38]
+ [ 10  17  31  14]]
+Accuracy Score 0.5623268698060941
+BEST ACCURACY TILL NOW 0.5332409972299169
+Best ACC achieved...... 0.5623268698060941
+---------------------------------------------
+epoch 30 iter 85/86 Train Total loss: 0.20172633230686188
+Train Accuracy: 0.8736976786693474
+Classwise_Losses Normal: 0.9168832775424508, Crackle: 0.19816222471846406, Wheeze: 0.09861021153447469, Both: 0.07935608495178854
+*************Metrics******************
+Se: 0.9605958673022157, Sp: 0.5974025973569593, Score: 0.7789992323295876
+Normal: 0.5974025973569593, Crackle: 0.9417613635694773, Wheeze: 0.9676448456758733, Both: 0.9726315788791137
+testing......
+Val Accuracy: 0.5491689750692521
+epoch 30, Validation BCE loss: 1.6608268022537231
+Confusion Matrix [[424 191 140  20]
+ [ 91 245  28  27]
+ [ 45  23 115  23]
+ [ 12   6  45   9]]
+Accuracy Score 0.5491689750692521
+BEST ACCURACY TILL NOW 0.5623268698060941
+---------------------------------------------
+epoch 31 iter 85/86 Train Total loss: 0.19809778034687042
+Train Accuracy: 0.8744288064339243
+Classwise_Losses Normal: 0.9283244837876722, Crackle: 0.16879457342349263, Wheeze: 0.09811432875530912, Both: 0.06023236439544472
+*************Metrics******************
+Se: 0.9680614012650611, Sp: 0.6103351954881051, Score: 0.7891982983765831
+Normal: 0.6103351954881051, Crackle: 0.9523121386595151, Wheeze: 0.9689807975650679, Both: 0.9838585702548919
+testing......
+Val Accuracy: 0.5754847645429363
+epoch 31, Validation BCE loss: 1.8103278875350952
+Confusion Matrix [[465 152 145  13]
+ [ 98 233  46  14]
+ [ 44  15 127  20]
+ [  9   5  52   6]]
+Accuracy Score 0.5754847645429363
+BEST ACCURACY TILL NOW 0.5623268698060941
+Best ACC achieved...... 0.5754847645429363
+---------------------------------------------
+epoch 32 iter 85/86 Train Total loss: 0.18802398443222046
+Train Accuracy: 0.8846645951380003
+Classwise_Losses Normal: 0.84271945496768, Crackle: 0.17423634323569503, Wheeze: 0.08675727482929531, Both: 0.07544311249745536
+*************Metrics******************
+Se: 0.9643119041091925, Sp: 0.6485507245906847, Score: 0.8064313143499386
+Normal: 0.6485507245906847, Crackle: 0.9482014387807051, Wheeze: 0.9715568861548237, Both: 0.9736263735550458
+testing......
+Val Accuracy: 0.5754847645429363
+epoch 32, Validation BCE loss: 1.80219566822052
+Confusion Matrix [[434 199 132  10]
+ [ 82 264  36   9]
+ [ 39  20 129  18]
+ [  8  10  50   4]]
+Accuracy Score 0.5754847645429363
+BEST ACCURACY TILL NOW 0.5754847645429363
+---------------------------------------------
+epoch 33 iter 85/86 Train Total loss: 0.20079250633716583
+Train Accuracy: 0.8850301590202887
+Classwise_Losses Normal: 0.8357716771740902, Crackle: 0.1856063068686834, Wheeze: 0.09632272145541311, Both: 0.10279386840112939
+*************Metrics******************
+Se: 0.9574780057949064, Sp: 0.6700507613727302, Score: 0.8137643835838183
+Normal: 0.6700507613727302, Crackle: 0.9366144667459647, Wheeze: 0.9696071163106297, Both: 0.9657631953662081
+testing......
+Val Accuracy: 0.48476454293628807
+epoch 33, Validation BCE loss: 2.009406328201294
+Confusion Matrix [[293 373  97  12]
+ [ 44 315  21  11]
+ [ 44  37  85  40]
+ [ 12  17  36   7]]
+Accuracy Score 0.48476454293628807
+BEST ACCURACY TILL NOW 0.5754847645429363
+---------------------------------------------
+epoch 34 iter 85/86 Train Total loss: 0.21059384942054749
+Train Accuracy: 0.8700420398464631
+Classwise_Losses Normal: 0.898913571169693, Crackle: 0.19213151780056306, Wheeze: 0.10710985832741485, Both: 0.10540498664186147
+*************Metrics******************
+Se: 0.9552058110686292, Sp: 0.6077554063678036, Score: 0.7814806087182165
+Normal: 0.6077554063678036, Crackle: 0.9397849461691912, Wheeze: 0.9630156471576804, Both: 0.9631301729899828
+testing......
+Val Accuracy: 0.5263157894736842
+epoch 34, Validation BCE loss: 1.6604326963424683
+Confusion Matrix [[409 237  98  31]
+ [ 96 236  24  35]
+ [ 43  23  95  45]
+ [ 12   5  35  20]]
+Accuracy Score 0.5263157894736842
+BEST ACCURACY TILL NOW 0.5754847645429363
+---------------------------------------------
+epoch 35 iter 85/86 Train Total loss: 0.17628887295722961
+Train Accuracy: 0.8969109851946627
+Classwise_Losses Normal: 0.7747619242998414, Crackle: 0.16899509968308446, Wheeze: 0.08510445380457947, Both: 0.08328486229902453
+*************Metrics******************
+Se: 0.9647566530114058, Sp: 0.6792307691785208, Score: 0.8219937110949633
+Normal: 0.6792307691785208, Crackle: 0.9471488177366378, Wheeze: 0.9779735682101343, Both: 0.9700948212275643
+testing......
+Val Accuracy: 0.5796398891966759
+epoch 35, Validation BCE loss: 1.6249525547027588
+Confusion Matrix [[491 205  61  18]
+ [126 243  16   6]
+ [ 57  27  95  27]
+ [ 14   8  42   8]]
+Accuracy Score 0.5796398891966759
+BEST ACCURACY TILL NOW 0.5754847645429363
+Best ACC achieved...... 0.5796398891966759
+---------------------------------------------
+epoch 36 iter 85/86 Train Total loss: 0.19405986368656158
+Train Accuracy: 0.8894169256077499
+Classwise_Losses Normal: 0.8216665283150366, Crackle: 0.17269740198768102, Wheeze: 0.09761043523031256, Both: 0.09109567300264453
+*************Metrics******************
+Se: 0.9651790092472895, Sp: 0.6676238334050522, Score: 0.8164014213261708
+Normal: 0.6676238334050522, Crackle: 0.9510086454646248, Wheeze: 0.9764117225892487, Both: 0.9682416730466119
+testing......
+Val Accuracy: 0.582409972299169
+epoch 36, Validation BCE loss: 1.563521146774292
+Confusion Matrix [[479 203  78  15]
+ [108 260  17   6]
+ [ 62  28  84  32]
+ [ 12  15  27  18]]
+Accuracy Score 0.582409972299169
+BEST ACCURACY TILL NOW 0.5796398891966759
+Best ACC achieved...... 0.582409972299169
+---------------------------------------------
+epoch 37 iter 85/86 Train Total loss: 0.16791869699954987
+Train Accuracy: 0.9022116614878449
+Classwise_Losses Normal: 0.733937981516284, Crackle: 0.15463373308467446, Wheeze: 0.08312219227176805, Both: 0.07301968528628042
+*************Metrics******************
+Se: 0.9656683710032383, Sp: 0.7111436949625262, Score: 0.8384060329828822
+Normal: 0.7111436949625262, Crackle: 0.9493019837656649, Wheeze: 0.9727941175755299, Both: 0.9747474746771467
+testing......
+Val Accuracy: 0.5740997229916898
+epoch 37, Validation BCE loss: 1.647484302520752
+Confusion Matrix [[434 265  59  17]
+ [ 88 284  12   7]
+ [ 53  26  92  35]
+ [ 11  12  30  19]]
+Accuracy Score 0.5740997229916898
+BEST ACCURACY TILL NOW 0.582409972299169
+---------------------------------------------
+epoch 38 iter 85/86 Train Total loss: 0.14932863414287567
+Train Accuracy: 0.9089745933101809
+Classwise_Losses Normal: 0.6511649546322291, Crackle: 0.1366778234963721, Wheeze: 0.07324806993110075, Both: 0.06199593743636425
+*************Metrics******************
+Se: 0.9720039292014733, Sp: 0.7255182272533583, Score: 0.8487610782274158
+Normal: 0.7255182272533583, Crackle: 0.9597069596366516, Wheeze: 0.9764878764896042, Both: 0.9799405645631546
+testing......
+Val Accuracy: 0.5200831024930748
+epoch 38, Validation BCE loss: 2.0128626823425293
+Confusion Matrix [[363 303  95  14]
+ [ 78 280  21  12]
+ [ 44  24  96  42]
+ [  9  13  38  12]]
+Accuracy Score 0.5200831024930748
+BEST ACCURACY TILL NOW 0.582409972299169
+---------------------------------------------
+epoch 39 iter 85/86 Train Total loss: 0.16143988072872162
+Train Accuracy: 0.9091573752513251
+Classwise_Losses Normal: 0.6892461234548783, Crackle: 0.14263434452016746, Wheeze: 0.09764615926540286, Both: 0.06868697643149572
+*************Metrics******************
+Se: 0.9645200485323558, Sp: 0.741150442423219, Score: 0.8528352454777874
+Normal: 0.741150442423219, Crackle: 0.9544419133671648, Wheeze: 0.962250712182176, Both: 0.9763271161423008
+testing......
+Val Accuracy: 0.5796398891966759
+epoch 39, Validation BCE loss: 1.7438253164291382
+Confusion Matrix [[454 223  91   7]
+ [ 96 268  17  10]
+ [ 49  27  99  31]
+ [ 12  14  30  16]]
+Accuracy Score 0.5796398891966759
+BEST ACCURACY TILL NOW 0.582409972299169
+---------------------------------------------
+epoch 40 iter 85/86 Train Total loss: 0.16522683203220367
+Train Accuracy: 0.9109851946627673
+Classwise_Losses Normal: 0.6874206639254592, Crackle: 0.1611625755249653, Wheeze: 0.07078522964039066, Both: 0.08273274782562835
+*************Metrics******************
+Se: 0.96886491780077, Sp: 0.7413793102915677, Score: 0.8551221140461689
+Normal: 0.7413793102915677, Crackle: 0.9473684209833796, Wheeze: 0.9821826279894446, Both: 0.9772727272010798
+testing......
+Val Accuracy: 0.5117728531855956
+epoch 40, Validation BCE loss: 2.047244071960449
+Confusion Matrix [[360 242 147  26]
+ [ 78 258  29  26]
+ [ 41  24  94  47]
+ [ 10   9  26  27]]
+Accuracy Score 0.5117728531855956
+BEST ACCURACY TILL NOW 0.582409972299169
+---------------------------------------------
+epoch 41 iter 85/86 Train Total loss: 0.1415109485387802
+Train Accuracy: 0.9234143666605739
+Classwise_Losses Normal: 0.5975663937715682, Crackle: 0.1331007872271714, Wheeze: 0.062302492857162425, Both: 0.05865507286059764
+*************Metrics******************
+Se: 0.9752352649102105, Sp: 0.7773900906645228, Score: 0.8763126777873667
+Normal: 0.7773900906645228, Crackle: 0.9602941175764491, Wheeze: 0.9819624818916334, Both: 0.9837461299548185
+testing......
+Val Accuracy: 0.5609418282548476
+epoch 41, Validation BCE loss: 2.015134334564209
+Confusion Matrix [[458 224  86   7]
+ [119 252  18   2]
+ [ 57  25  90  34]
+ [ 14  10  38  10]]
+Accuracy Score 0.5609418282548476
+BEST ACCURACY TILL NOW 0.582409972299169
+---------------------------------------------
+epoch 42 iter 85/86 Train Total loss: 0.13216887414455414
+Train Accuracy: 0.925242186072016
+Classwise_Losses Normal: 0.6098037115449332, Crackle: 0.12571650466277684, Wheeze: 0.05940003831449628, Both: 0.052910340203927604
+*************Metrics******************
+Se: 0.974191992211226, Sp: 0.7720754716398435, Score: 0.8731337319255348
+Normal: 0.7720754716398435, Crackle: 0.9601398600727176, Wheeze: 0.9796954314010374, Both: 0.9835452504873938
+testing......
+Val Accuracy: 0.5609418282548476
+epoch 42, Validation BCE loss: 1.9199715852737427
+Confusion Matrix [[433 257  72  13]
+ [ 97 273   9  12]
+ [ 48  28  79  51]
+ [ 14   9  24  25]]
+Accuracy Score 0.5609418282548476
+BEST ACCURACY TILL NOW 0.582409972299169
+---------------------------------------------
+epoch 43 iter 85/86 Train Total loss: 0.15113145112991333
+Train Accuracy: 0.9186620361908243
+Classwise_Losses Normal: 0.5850173968770405, Crackle: 0.1553213194348284, Wheeze: 0.08733950855737123, Both: 0.0695407678658414
+*************Metrics******************
+Se: 0.9674045243760104, Sp: 0.7713235293550498, Score: 0.86936402686553
+Normal: 0.7713235293550498, Crackle: 0.95063575161177, Wheeze: 0.9745699326122238, Both: 0.9763395963134073
+testing......
+Val Accuracy: 0.5872576177285319
+epoch 43, Validation BCE loss: 1.7093212604522705
+Confusion Matrix [[466 212  78  19]
+ [ 93 258  12  28]
+ [ 46  19 108  33]
+ [  9   9  38  16]]
+Accuracy Score 0.5872576177285319
+BEST ACCURACY TILL NOW 0.582409972299169
+Best ACC achieved...... 0.5872576177285319
+---------------------------------------------
+epoch 44 iter 85/86 Train Total loss: 0.1311696618795395
+Train Accuracy: 0.9290806068360445
+Classwise_Losses Normal: 0.5401610636739237, Crackle: 0.13221744014891842, Wheeze: 0.06483201596700423, Both: 0.051572860705895084
+*************Metrics******************
+Se: 0.9730788056064799, Sp: 0.7992779782816407, Score: 0.8861783919440602
+Normal: 0.7992779782816407, Crackle: 0.9577464788057926, Wheeze: 0.9794207316326662, Both: 0.9830132938712695
+testing......
+Val Accuracy: 0.5470914127423823
+epoch 44, Validation BCE loss: 2.0963034629821777
+Confusion Matrix [[400 266  97  12]
+ [ 74 278  28  11]
+ [ 40  26 107  33]
+ [  9  11  47   5]]
+Accuracy Score 0.5470914127423823
+BEST ACCURACY TILL NOW 0.5872576177285319
+---------------------------------------------
+epoch 45 iter 85/86 Train Total loss: 0.12393376976251602
+Train Accuracy: 0.9310912081886309
+Classwise_Losses Normal: 0.5328705037307481, Crackle: 0.11480765598687813, Wheeze: 0.05707193565305142, Both: 0.05642008041056161
+*************Metrics******************
+Se: 0.9755977322423764, Sp: 0.8033946251199863, Score: 0.8894961786811814
+Normal: 0.8033946251199863, Crackle: 0.9600296076269409, Wheeze: 0.9841726617996999, Both: 0.9825227962779239
+testing......
+Val Accuracy: 0.5436288088642659
+epoch 45, Validation BCE loss: 2.3172357082366943
+Confusion Matrix [[421 229 113  12]
+ [ 88 265  32   6]
+ [ 50  37  80  39]
+ [ 14  11  28  19]]
+Accuracy Score 0.5436288088642659
+BEST ACCURACY TILL NOW 0.5872576177285319
+---------------------------------------------
+epoch 46 iter 85/86 Train Total loss: 0.11331751942634583
+Train Accuracy: 0.9376713580698226
+Classwise_Losses Normal: 0.5226897656885547, Crackle: 0.09602091847989333, Wheeze: 0.052324476946569415, Both: 0.05636542478700979
+*************Metrics******************
+Se: 0.9798836644949189, Sp: 0.8081784386016225, Score: 0.8940310515482708
+Normal: 0.8081784386016225, Crackle: 0.9729334307993466, Wheeze: 0.9869186045794391, Both: 0.9797541575575016
+testing......
+Val Accuracy: 0.6121883656509696
+epoch 46, Validation BCE loss: 1.854651689529419
+Confusion Matrix [[543 148  75   9]
+ [128 236  22   5]
+ [ 67  19  92  28]
+ [ 13  11  35  13]]
+Accuracy Score 0.6121883656509696
+BEST ACCURACY TILL NOW 0.5872576177285319
+Best ACC achieved...... 0.6121883656509696
+---------------------------------------------
+epoch 47 iter 85/86 Train Total loss: 0.10230105370283127
+Train Accuracy: 0.9466276731858891
+Classwise_Losses Normal: 0.41997486322344757, Crackle: 0.10267610960112067, Wheeze: 0.06865207401991825, Both: 0.03952473293533552
+*************Metrics******************
+Se: 0.9773269689037715, Sp: 0.8462138953281645, Score: 0.911770432115968
+Normal: 0.8462138953281645, Crackle: 0.9636498515605602, Wheeze: 0.9789768744934145, Both: 0.9886925794354282
+testing......
+Val Accuracy: 0.6052631578947368
+epoch 47, Validation BCE loss: 2.0653257369995117
+Confusion Matrix [[500 200  67   8]
+ [ 97 265  18  11]
+ [ 55  24 101  26]
+ [ 15   8  41   8]]
+Accuracy Score 0.6052631578947368
+BEST ACCURACY TILL NOW 0.6121883656509696
+---------------------------------------------
+epoch 48 iter 85/86 Train Total loss: 0.11923598498106003
+Train Accuracy: 0.9362091025406689
+Classwise_Losses Normal: 0.5683459922806374, Crackle: 0.11242954209391665, Wheeze: 0.0519193542675121, Both: 0.05123779880949627
+*************Metrics******************
+Se: 0.9774688398146596, Sp: 0.8036951500536033, Score: 0.8905819949341314
+Normal: 0.8036951500536033, Crackle: 0.9620160700539069, Wheeze: 0.9828649759436009, Both: 0.987351190402727
+testing......
+Val Accuracy: 0.6094182825484764
+epoch 48, Validation BCE loss: 2.0694985389709473
+Confusion Matrix [[525 110 130  10]
+ [137 219  27   8]
+ [ 53   8 131  14]
+ [ 11   9  47   5]]
+Accuracy Score 0.6094182825484764
+BEST ACCURACY TILL NOW 0.6121883656509696
+---------------------------------------------
+epoch 49 iter 85/86 Train Total loss: 0.13006672263145447
+Train Accuracy: 0.9316395540120636
+Classwise_Losses Normal: 0.49980320926093286, Crackle: 0.13024679607793932, Wheeze: 0.0685646497737807, Both: 0.06846947435387876
+*************Metrics******************
+Se: 0.9721819060736202, Sp: 0.8062827224527838, Score: 0.8892323142632019
+Normal: 0.8062827224527838, Crackle: 0.958689458621176, Wheeze: 0.978985507175436, Both: 0.9792592591867216
+testing......
+Val Accuracy: 0.5768698060941828
+epoch 49, Validation BCE loss: 1.8912603855133057
+Confusion Matrix [[466 213  77  19]
+ [ 97 271  16   7]
+ [ 65  27  86  28]
+ [ 15  13  34  10]]
+Accuracy Score 0.5768698060941828
+BEST ACCURACY TILL NOW 0.6121883656509696
+---------------------------------------------
+epoch 50 iter 85/86 Train Total loss: 0.1211969330906868
+Train Accuracy: 0.9380369219521111
+Classwise_Losses Normal: 0.4688721273661138, Crackle: 0.11572734421059078, Wheeze: 0.0663272953782334, Both: 0.06394628580410773
+*************Metrics******************
+Se: 0.9738578059388818, Sp: 0.8316400579948012, Score: 0.9027489319668416
+Normal: 0.8316400579948012, Crackle: 0.9661515819745291, Wheeze: 0.9753363227970602, Both: 0.9799426933395458
+testing......
+Val Accuracy: 0.5921052631578947
+epoch 50, Validation BCE loss: 1.924004077911377
+Confusion Matrix [[502 183  78  12]
+ [126 242  15   8]
+ [ 51  18  96  41]
+ [ 11   9  37  15]]
+Accuracy Score 0.5921052631578947
+BEST ACCURACY TILL NOW 0.6121883656509696
+---------------------------------------------
+epoch 51 iter 85/86 Train Total loss: 0.11646389216184616
+Train Accuracy: 0.9349296289526594
+Classwise_Losses Normal: 0.4818067706112856, Crackle: 0.1139931015537655, Wheeze: 0.05809140968392134, Both: 0.04645631278844453
+*************Metrics******************
+Se: 0.9748148147426065, Sp: 0.8212526389288353, Score: 0.8980337268357208
+Normal: 0.8212526389288353, Crackle: 0.9567233384113816, Wheeze: 0.98140200279103, Both: 0.9852724594267105
+testing......
+Val Accuracy: 0.5796398891966759
+epoch 51, Validation BCE loss: 2.0091021060943604
+Confusion Matrix [[472 184 100  19]
+ [ 90 255  28  18]
+ [ 58  17  98  33]
+ [ 10   8  42  12]]
+Accuracy Score 0.5796398891966759
+BEST ACCURACY TILL NOW 0.6121883656509696
+---------------------------------------------
+epoch 52 iter 85/86 Train Total loss: 0.10266265273094177
+Train Accuracy: 0.9420581246572838
+Classwise_Losses Normal: 0.4564689206867835, Crackle: 0.09829244282804737, Wheeze: 0.04035290848206534, Both: 0.048473945877499015
+*************Metrics******************
+Se: 0.9804878048063059, Sp: 0.8271334791519233, Score: 0.9038106419791145
+Normal: 0.8271334791519233, Crackle: 0.9715743439525093, Wheeze: 0.9847272726556563, Both: 0.9852180339257046
+testing......
+Val Accuracy: 0.6336565096952909
+epoch 52, Validation BCE loss: 1.8611176013946533
+Confusion Matrix [[558 128  80   9]
+ [127 241  20   3]
+ [ 65  11 102  28]
+ [ 17   6  35  14]]
+Accuracy Score 0.6336565096952909
+BEST ACCURACY TILL NOW 0.6121883656509696
+Best ACC achieved...... 0.6336565096952909
+---------------------------------------------
+epoch 53 iter 85/86 Train Total loss: 0.09104685485363007
+Train Accuracy: 0.956680679948821
+Classwise_Losses Normal: 0.33602606489826675, Crackle: 0.09054724763849482, Wheeze: 0.05119034902443601, Both: 0.04944453696223946
+*************Metrics******************
+Se: 0.9797955208632088, Sp: 0.8870139397735134, Score: 0.933404730318361
+Normal: 0.8870139397735134, Crackle: 0.9724637680454737, Wheeze: 0.9845132742636791, Both: 0.9825072885581264
+testing......
+Val Accuracy: 0.6267313019390581
+epoch 53, Validation BCE loss: 1.9666869640350342
+Confusion Matrix [[556 149  65   5]
+ [133 241  14   3]
+ [ 62  17  98  29]
+ [ 22   9  31  10]]
+Accuracy Score 0.6267313019390581
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 54 iter 85/86 Train Total loss: 0.09746011346578598
+Train Accuracy: 0.9479071467738986
+Classwise_Losses Normal: 0.4222044601788264, Crackle: 0.0898674637256017, Wheeze: 0.05284081478702744, Both: 0.03987409473353021
+*************Metrics******************
+Se: 0.9824518644175639, Sp: 0.8442982455523175, Score: 0.9133750549849406
+Normal: 0.8442982455523175, Crackle: 0.9719909158991681, Wheeze: 0.9865056817481176, Both: 0.9883551673225361
+testing......
+Val Accuracy: 0.618421052631579
+epoch 54, Validation BCE loss: 2.1837306022644043
+Confusion Matrix [[574 127  67   7]
+ [163 209  17   2]
+ [ 59  22 104  21]
+ [ 20   8  38   6]]
+Accuracy Score 0.618421052631579
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 55 iter 85/86 Train Total loss: 0.10437840223312378
+Train Accuracy: 0.9433375982452933
+Classwise_Losses Normal: 0.4242118325241408, Crackle: 0.10931207946419044, Wheeze: 0.05058826476760107, Both: 0.04534900368568123
+*************Metrics******************
+Se: 0.977577382331642, Sp: 0.8406432747923507, Score: 0.9091103285619964
+Normal: 0.8406432747923507, Crackle: 0.9640338504256677, Wheeze: 0.9850746267921587, Both: 0.9843866170271832
+testing......
+Val Accuracy: 0.600415512465374
+epoch 55, Validation BCE loss: 2.295086622238159
+Confusion Matrix [[533 120 113   9]
+ [137 225  24   5]
+ [ 51  21  99  35]
+ [ 15   6  41  10]]
+Accuracy Score 0.600415512465374
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 56 iter 85/86 Train Total loss: 0.0931268036365509
+Train Accuracy: 0.9513800036556388
+Classwise_Losses Normal: 0.40538974646082787, Crackle: 0.08323849782688894, Wheeze: 0.0525156800612327, Both: 0.038262703940708714
+*************Metrics******************
+Se: 0.9803921567915476, Sp: 0.8619402984431389, Score: 0.9211662276173432
+Normal: 0.8619402984431389, Crackle: 0.9756446990705127, Wheeze: 0.9808646349411153, Both: 0.9848942597443434
+testing......
+Val Accuracy: 0.6336565096952909
+epoch 56, Validation BCE loss: 2.2076070308685303
+Confusion Matrix [[624  79  68   4]
+ [197 174  18   2]
+ [ 66  14 110  16]
+ [ 13   6  46   7]]
+Accuracy Score 0.6336565096952909
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 57 iter 85/86 Train Total loss: 0.08118322491645813
+Train Accuracy: 0.9570462438311095
+Classwise_Losses Normal: 0.35123022716621866, Crackle: 0.07796845848674465, Wheeze: 0.0359259532275635, Both: 0.04482446965859928
+*************Metrics******************
+Se: 0.9843900095352266, Sp: 0.8699311399487429, Score: 0.9271605747419848
+Normal: 0.8699311399487429, Crackle: 0.9741750357981224, Wheeze: 0.9911373706801229, Both: 0.9879943502127123
+testing......
+Val Accuracy: 0.5713296398891967
+epoch 57, Validation BCE loss: 2.1747324466705322
+Confusion Matrix [[440 229  94  12]
+ [ 86 270  22  13]
+ [ 45  26  89  46]
+ [  8  11  27  26]]
+Accuracy Score 0.5713296398891967
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 58 iter 85/86 Train Total loss: 0.10147787630558014
+Train Accuracy: 0.9497349661853408
+Classwise_Losses Normal: 0.37634621837960525, Crackle: 0.08764191284792593, Wheeze: 0.0663792985410772, Both: 0.056439041986535515
+*************Metrics******************
+Se: 0.9774896011027046, Sp: 0.867774566411288, Score: 0.9226320837569963
+Normal: 0.867774566411288, Crackle: 0.9697416973454066, Wheeze: 0.9796363635651174, Both: 0.9830508473851842
+testing......
+Val Accuracy: 0.6267313019390581
+epoch 58, Validation BCE loss: 2.048042058944702
+Confusion Matrix [[549 133  76  17]
+ [117 243  21  10]
+ [ 56  20  98  32]
+ [ 15   7  35  15]]
+Accuracy Score 0.6267313019390581
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 59 iter 85/86 Train Total loss: 0.09278922528028488
+Train Accuracy: 0.9543045147139462
+Classwise_Losses Normal: 0.33053780658426135, Crackle: 0.09102055326701794, Wheeze: 0.055701650746150654, Both: 0.05103878670512594
+*************Metrics******************
+Se: 0.9793966150861372, Sp: 0.8809182208837218, Score: 0.9301574179849295
+Normal: 0.8809182208837218, Crackle: 0.9661144577585759, Wheeze: 0.9843166541460556, Both: 0.987234042483175
+testing......
+Val Accuracy: 0.6191135734072022
+epoch 59, Validation BCE loss: 2.1063618659973145
+Confusion Matrix [[551 171  46   7]
+ [141 239   7   4]
+ [ 68  21  90  27]
+ [ 20   9  29  14]]
+Accuracy Score 0.6191135734072022
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 60 iter 85/86 Train Total loss: 0.08104389160871506
+Train Accuracy: 0.9581429354779747
+Classwise_Losses Normal: 0.31973240742547343, Crackle: 0.08189022062388536, Wheeze: 0.046470833051778945, Both: 0.03664752503458854
+*************Metrics******************
+Se: 0.981355932132105, Sp: 0.8866517523574459, Score: 0.9340038422447754
+Normal: 0.8866517523574459, Crackle: 0.9721030042223103, Wheeze: 0.9838354150636419, Both: 0.9883296862882328
+testing......
+Val Accuracy: 0.5886426592797784
+epoch 60, Validation BCE loss: 2.0931615829467773
+Confusion Matrix [[509 147 108  11]
+ [145 217  22   7]
+ [ 62  11 113  20]
+ [ 15   8  38  11]]
+Accuracy Score 0.5886426592797784
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 61 iter 85/86 Train Total loss: 0.08451982587575912
+Train Accuracy: 0.9528422591847925
+Classwise_Losses Normal: 0.3562479709457906, Crackle: 0.08258774338749221, Wheeze: 0.043771568982351246, Both: 0.041411380344112216
+*************Metrics******************
+Se: 0.9804347825376497, Sp: 0.8670172801752806, Score: 0.9237260313564651
+Normal: 0.8670172801752806, Crackle: 0.9732142856418741, Wheeze: 0.9852832964690742, Both: 0.9826026443296728
+testing......
+Val Accuracy: 0.6253462603878116
+epoch 61, Validation BCE loss: 1.9873325824737549
+Confusion Matrix [[563 126  74  12]
+ [137 225  15  14]
+ [ 65  13  93  35]
+ [ 17   7  26  22]]
+Accuracy Score 0.6253462603878116
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 62 iter 85/86 Train Total loss: 0.08522611856460571
+Train Accuracy: 0.9568634618899652
+Classwise_Losses Normal: 0.31639179437598924, Crackle: 0.07287461124133209, Wheeze: 0.039412690160406154, Both: 0.06183973511991511
+*************Metrics******************
+Se: 0.9805494771956809, Sp: 0.8851251840290778, Score: 0.9328373306123794
+Normal: 0.8851251840290778, Crackle: 0.9732465653670828, Wheeze: 0.9833962263408759, Both: 0.9850533807128077
+testing......
+Val Accuracy: 0.6073407202216067
+epoch 62, Validation BCE loss: 2.1904664039611816
+Confusion Matrix [[499 171  94  11]
+ [113 262  13   3]
+ [ 62  22  98  24]
+ [ 17  10  27  18]]
+Accuracy Score 0.6073407202216067
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 63 iter 85/86 Train Total loss: 0.09717710316181183
+Train Accuracy: 0.9539389508316578
+Classwise_Losses Normal: 0.3256454214726293, Crackle: 0.0987572394585778, Wheeze: 0.0538322315647708, Both: 0.059188605810971094
+*************Metrics******************
+Se: 0.9777239708732889, Sp: 0.8806860551170257, Score: 0.9292050129951572
+Normal: 0.8806860551170257, Crackle: 0.9662209710790838, Wheeze: 0.984340044669326, Both: 0.9831871344310537
+testing......
+Val Accuracy: 0.5713296398891967
+epoch 63, Validation BCE loss: 2.3350701332092285
+Confusion Matrix [[503 127 119  26]
+ [124 215  31  21]
+ [ 57  18  92  39]
+ [ 16   8  33  15]]
+Accuracy Score 0.5713296398891967
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 64 iter 85/86 Train Total loss: 0.08869573473930359
+Train Accuracy: 0.955035642478523
+Classwise_Losses Normal: 0.33851608391060295, Crackle: 0.08726708698976322, Wheeze: 0.05464906349683757, Both: 0.038592682707343715
+*************Metrics******************
+Se: 0.9809523808805164, Sp: 0.8779069766803848, Score: 0.9294296787804506
+Normal: 0.8779069766803848, Crackle: 0.9733924611253961, Wheeze: 0.9835820894788373, Both: 0.9857346646943129
+testing......
+Val Accuracy: 0.6114958448753463
+epoch 64, Validation BCE loss: 2.243152379989624
+Confusion Matrix [[535 155  78   7]
+ [132 231  22   6]
+ [ 50  22 104  30]
+ [ 14   8  37  13]]
+Accuracy Score 0.6114958448753463
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 65 iter 85/86 Train Total loss: 0.07694022357463837
+Train Accuracy: 0.9579601535368305
+Classwise_Losses Normal: 0.3208844674703555, Crackle: 0.06373318620678721, Wheeze: 0.04565890447107189, Both: 0.03894509244263473
+*************Metrics******************
+Se: 0.9833740830574543, Sp: 0.8826937001533169, Score: 0.9330338916053856
+Normal: 0.8826937001533169, Crackle: 0.9819140918627044, Wheeze: 0.9810393257738035, Both: 0.9873039581040103
+testing......
+Val Accuracy: 0.5962603878116344
+epoch 65, Validation BCE loss: 2.2920572757720947
+Confusion Matrix [[521 166  81   7]
+ [131 233  15  12]
+ [ 64  24  92  26]
+ [ 19   7  31  15]]
+Accuracy Score 0.5962603878116344
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 66 iter 85/86 Train Total loss: 0.07419699430465698
+Train Accuracy: 0.961798574300859
+Classwise_Losses Normal: 0.2952582363567087, Crackle: 0.07996290174951004, Wheeze: 0.03137709139727974, Both: 0.036845642736052564
+*************Metrics******************
+Se: 0.9839298757498957, Sp: 0.8951612902569531, Score: 0.9395455830034244
+Normal: 0.8951612902569531, Crackle: 0.9753867791156551, Wheeze: 0.9881569207262654, Both: 0.9887556221147861
+testing......
+Val Accuracy: 0.5858725761772853
+epoch 66, Validation BCE loss: 2.342816114425659
+Confusion Matrix [[520 138 111   6]
+ [144 216  22   9]
+ [ 53  24  94  35]
+ [ 13  10  33  16]]
+Accuracy Score 0.5858725761772853
+BEST ACCURACY TILL NOW 0.6336565096952909
+---------------------------------------------
+epoch 67 iter 85/86 Train Total loss: 0.0688709020614624
+Train Accuracy: 0.9656369950648875
+Classwise_Losses Normal: 0.2570811178423525, Crackle: 0.05985550527301921, Wheeze: 0.04539141837177842, Both: 0.03295660417297714
+*************Metrics******************
+Se: 0.9849111705292107, Sp: 0.9074889867175119, Score: 0.9462000786233613
+Normal: 0.9074889867175119, Crackle: 0.97866077991327, Wheeze: 0.9868131867408929, Both: 0.9891696750188326
+testing......
+Val Accuracy: 0.6343490304709142
+epoch 67, Validation BCE loss: 2.299649477005005
+Confusion Matrix [[600  85  81   9]
+ [168 198  16   9]
+ [ 56  21 106  23]
+ [ 15   7  38  12]]
+Accuracy Score 0.6343490304709142
+BEST ACCURACY TILL NOW 0.6336565096952909
+Best ACC achieved...... 0.6343490304709142
+---------------------------------------------
+epoch 68 iter 85/86 Train Total loss: 0.08272798359394073
+Train Accuracy: 0.9577773715956863
+Classwise_Losses Normal: 0.31052597657821207, Crackle: 0.07817780604250825, Wheeze: 0.040866801465639216, Both: 0.051684799911222774
+*************Metrics******************
+Se: 0.9811781959681366, Sp: 0.8884057970370721, Score: 0.9347919965026044
+Normal: 0.8884057970370721, Crackle: 0.9732658958834346, Wheeze: 0.9883466860168721, Both: 0.9820089954286351
+testing......
+Val Accuracy: 0.5574792243767313
+epoch 68, Validation BCE loss: 2.2299983501434326
+Confusion Matrix [[468 173  91  43]
+ [103 222  19  47]
+ [ 52  17  84  53]
+ [  7   7  27  31]]
+Accuracy Score 0.5574792243767313
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 69 iter 85/86 Train Total loss: 0.07728967070579529
+Train Accuracy: 0.9608846645951379
+Classwise_Losses Normal: 0.307373305000635, Crackle: 0.06342248739874097, Wheeze: 0.04575687525132255, Both: 0.04632689908292242
+*************Metrics******************
+Se: 0.9835589941259508, Sp: 0.8906367040531359, Score: 0.9370978490895434
+Normal: 0.8906367040531359, Crackle: 0.9786628733301095, Wheeze: 0.9874908019876756, Both: 0.9846827132760991
+testing......
+Val Accuracy: 0.5588642659279779
+epoch 69, Validation BCE loss: 2.4171302318573
+Confusion Matrix [[432 203 107  33]
+ [ 92 259  22  18]
+ [ 45  27  89  45]
+ [  8  15  22  27]]
+Accuracy Score 0.5588642659279779
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 70 iter 85/86 Train Total loss: 0.06368742138147354
+Train Accuracy: 0.9685615061231949
+Classwise_Losses Normal: 0.23624273816812208, Crackle: 0.059115179885577775, Wheeze: 0.04211638257787718, Both: 0.033403583727168576
+*************Metrics******************
+Se: 0.9848338949698002, Sp: 0.9172361426790254, Score: 0.9510350188244128
+Normal: 0.9172361426790254, Crackle: 0.9794721406906547, Wheeze: 0.9869942195818647, Both: 0.9879089615229084
+testing......
+Val Accuracy: 0.6142659279778393
+epoch 70, Validation BCE loss: 2.346836566925049
+Confusion Matrix [[549 118 103   5]
+ [131 230  20  10]
+ [ 64  17  93  32]
+ [ 16   9  32  15]]
+Accuracy Score 0.6142659279778393
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 71 iter 85/86 Train Total loss: 0.07454228401184082
+Train Accuracy: 0.9647230853591664
+Classwise_Losses Normal: 0.2605429414841165, Crackle: 0.07459450572871704, Wheeze: 0.03914766091080284, Both: 0.036582043227834836
+*************Metrics******************
+Se: 0.9831932772380233, Sp: 0.9122807016903663, Score: 0.9477369894641948
+Normal: 0.9122807016903663, Crackle: 0.977224199218703, Wheeze: 0.9857357356617317, Both: 0.9870129869375851
+testing......
+Val Accuracy: 0.5664819944598338
+epoch 71, Validation BCE loss: 2.4140982627868652
+Confusion Matrix [[451 192 107  25]
+ [103 242  18  28]
+ [ 52  16  92  46]
+ [ 11   6  22  33]]
+Accuracy Score 0.5664819944598338
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 72 iter 85/86 Train Total loss: 0.0722084566950798
+Train Accuracy: 0.9661853408883202
+Classwise_Losses Normal: 0.27011842473504455, Crackle: 0.07146217200321739, Wheeze: 0.04130114162774762, Both: 0.036851742047927134
+*************Metrics******************
+Se: 0.9853264856210326, Sp: 0.9095513747532887, Score: 0.9474389301871606
+Normal: 0.9095513747532887, Crackle: 0.9793662490066791, Wheeze: 0.9871336668343722, Both: 0.9894973742693551
+testing......
+Val Accuracy: 0.600415512465374
+epoch 72, Validation BCE loss: 2.5301573276519775
+Confusion Matrix [[538 170  60   7]
+ [134 224  17  16]
+ [ 57  21  95  33]
+ [ 18   6  38  10]]
+Accuracy Score 0.600415512465374
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 73 iter 85/86 Train Total loss: 0.07163742184638977
+Train Accuracy: 0.9661853408883202
+Classwise_Losses Normal: 0.27371005487267763, Crackle: 0.07373472774368747, Wheeze: 0.03406898420888911, Both: 0.03417233166765676
+*************Metrics******************
+Se: 0.9857961623982711, Sp: 0.9122085047385318, Score: 0.9490023335684015
+Normal: 0.9122085047385318, Crackle: 0.9784283512343277, Wheeze: 0.989591077993339, Both: 0.9890510948183175
+testing......
+Val Accuracy: 0.6080332409972299
+epoch 73, Validation BCE loss: 2.1593730449676514
+Confusion Matrix [[507 175  70  23]
+ [103 257  14  17]
+ [ 49  20  87  50]
+ [ 12  10  23  27]]
+Accuracy Score 0.6080332409972299
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 74 iter 85/86 Train Total loss: 0.06489233672618866
+Train Accuracy: 0.9700237616523487
+Classwise_Losses Normal: 0.228141074408025, Crackle: 0.06822086053773599, Wheeze: 0.03637346736128265, Both: 0.03201125078968335
+*************Metrics******************
+Se: 0.9845056565923878, Sp: 0.9281138789375009, Score: 0.9563097677649444
+Normal: 0.9281138789375009, Crackle: 0.9784065524215633, Wheeze: 0.9866071427837347, Both: 0.988397389340943
+testing......
+Val Accuracy: 0.6080332409972299
+epoch 74, Validation BCE loss: 2.3244478702545166
+Confusion Matrix [[511 201  58   5]
+ [117 258  11   5]
+ [ 70  20  99  17]
+ [ 14  14  34  10]]
+Accuracy Score 0.6080332409972299
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 75 iter 85/86 Train Total loss: 0.07061420381069183
+Train Accuracy: 0.9670992505940412
+Classwise_Losses Normal: 0.2254145979431049, Crackle: 0.05854528852807712, Wheeze: 0.04917670020521269, Both: 0.043157808666904524
+*************Metrics******************
+Se: 0.9842578709906854, Sp: 0.9203539822382333, Score: 0.9523059266144593
+Normal: 0.9203539822382333, Crackle: 0.981725146127067, Wheeze: 0.9840546696291531, Both: 0.9870918753996135
+testing......
+Val Accuracy: 0.5997229916897507
+epoch 75, Validation BCE loss: 2.343214273452759
+Confusion Matrix [[511 177  70  17]
+ [105 249  21  16]
+ [ 55  15  91  45]
+ [ 12  10  35  15]]
+Accuracy Score 0.5997229916897507
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 76 iter 85/86 Train Total loss: 0.0687585324048996
+Train Accuracy: 0.9667336867117529
+Classwise_Losses Normal: 0.2987241987241818, Crackle: 0.05958046365323723, Wheeze: 0.041927925851402606, Both: 0.030303617944238227
+*************Metrics******************
+Se: 0.985803657291689, Sp: 0.9064638782580637, Score: 0.9461337677748763
+Normal: 0.9064638782580637, Crackle: 0.9800412938072925, Wheeze: 0.9871703491812425, Both: 0.9907692306930178
+testing......
+Val Accuracy: 0.6142659279778393
+epoch 76, Validation BCE loss: 2.262005090713501
+Confusion Matrix [[564 147  51  13]
+ [145 219  11  16]
+ [ 73  16  94  23]
+ [ 18   6  38  10]]
+Accuracy Score 0.6142659279778393
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 77 iter 85/86 Train Total loss: 0.06296432763338089
+Train Accuracy: 0.9678303783586181
+Classwise_Losses Normal: 0.2525060914682344, Crackle: 0.05799279329772139, Wheeze: 0.04305159307259207, Both: 0.023788019692978037
+*************Metrics******************
+Se: 0.9870478982658568, Sp: 0.9108049310434515, Score: 0.9489264146546541
+Normal: 0.9108049310434515, Crackle: 0.9846378931247523, Wheeze: 0.9845474612962071, Both: 0.991947291289023
+testing......
+Val Accuracy: 0.6343490304709142
+epoch 77, Validation BCE loss: 2.1336448192596436
+Confusion Matrix [[556 147  60  12]
+ [125 235  18  13]
+ [ 60  14 104  28]
+ [ 17   7  27  21]]
+Accuracy Score 0.6343490304709142
+BEST ACCURACY TILL NOW 0.6343490304709142
+---------------------------------------------
+epoch 78 iter 85/86 Train Total loss: 0.0672190934419632
+Train Accuracy: 0.9652714311825991
+Classwise_Losses Normal: 0.2580553753013173, Crackle: 0.06776543583454088, Wheeze: 0.029626040384308657, Both: 0.04011820965149951
+*************Metrics******************
+Se: 0.9839766933005116, Sp: 0.9082840236014584, Score: 0.946130358450985
+Normal: 0.9082840236014584, Crackle: 0.9748892170624159, Wheeze: 0.9898697539081137, Both: 0.9869848155468559
+testing......
+Val Accuracy: 0.6357340720221607
+epoch 78, Validation BCE loss: 2.184892177581787
+Confusion Matrix [[529 182  59   5]
+ [105 265  12   9]
+ [ 66  19 103  18]
+ [ 19   7  25  21]]
+Accuracy Score 0.6357340720221607
+BEST ACCURACY TILL NOW 0.6343490304709142
+Best ACC achieved...... 0.6357340720221607
+---------------------------------------------
+epoch 79 iter 85/86 Train Total loss: 0.05979371443390846
+Train Accuracy: 0.9696581977700602
+Classwise_Losses Normal: 0.24364854328251276, Crackle: 0.05186125086573889, Wheeze: 0.031431378399776375, Both: 0.03501481883145054
+*************Metrics******************
+Se: 0.9872165942363327, Sp: 0.9147169810630403, Score: 0.9509667876496866
+Normal: 0.9147169810630403, Crackle: 0.9839883550957798, Wheeze: 0.9897058822801688, Both: 0.9879603398733741
+testing......
+Val Accuracy: 0.6364265927977839
+epoch 79, Validation BCE loss: 2.240446090698242
+Confusion Matrix [[569 152  47   7]
+ [131 241  11   8]
+ [ 62  19 100  25]
+ [ 16   7  40   9]]
+Accuracy Score 0.6364265927977839
+BEST ACCURACY TILL NOW 0.6357340720221607
+Best ACC achieved...... 0.6364265927977839
+---------------------------------------------
+epoch 80 iter 85/86 Train Total loss: 0.06921901553869247
+Train Accuracy: 0.9683787241820507
+Classwise_Losses Normal: 0.23796004603661094, Crackle: 0.06322375398841636, Wheeze: 0.03570655397239107, Both: 0.042311604166165466
+*************Metrics******************
+Se: 0.9857947586833853, Sp: 0.9171469739973238, Score: 0.9514708663403546
+Normal: 0.9171469739973238, Crackle: 0.9823071478427243, Wheeze: 0.9869281045034912, Both: 0.9883990718493119
+testing......
+Val Accuracy: 0.5955678670360111
+epoch 80, Validation BCE loss: 2.35380220413208
+Confusion Matrix [[500 175  89  11]
+ [127 234  22   8]
+ [ 50  14 110  32]
+ [ 14   6  36  16]]
+Accuracy Score 0.5955678670360111
+BEST ACCURACY TILL NOW 0.6364265927977839
+---------------------------------------------
+epoch 81 iter 85/86 Train Total loss: 0.06969470530748367
+Train Accuracy: 0.969475415828916
+Classwise_Losses Normal: 0.25964101141790574, Crackle: 0.07391066058049163, Wheeze: 0.02992038001122683, Both: 0.039710754518331975
+*************Metrics******************
+Se: 0.9869122636218921, Sp: 0.9159851300434213, Score: 0.9514486968326568
+Normal: 0.9159851300434213, Crackle: 0.9825960840476726, Wheeze: 0.9899352982753462, Both: 0.9882005898976254
+testing......
+Val Accuracy: 0.639196675900277
+epoch 81, Validation BCE loss: 2.21406888961792
+Confusion Matrix [[588 127  53   7]
+ [146 224  10  11]
+ [ 69  17  91  29]
+ [ 16   6  30  20]]
+Accuracy Score 0.639196675900277
+BEST ACCURACY TILL NOW 0.6364265927977839
+Best ACC achieved...... 0.639196675900277
+---------------------------------------------
+epoch 82 iter 85/86 Train Total loss: 0.0601821169257164
+Train Accuracy: 0.9696581977700602
+Classwise_Losses Normal: 0.24620622550080087, Crackle: 0.05854093962473145, Wheeze: 0.03831955543349771, Both: 0.025945069805510396
+*************Metrics******************
+Se: 0.9875180028093483, Sp: 0.9126436780909852, Score: 0.9500808404501668
+Normal: 0.9126436780909852, Crackle: 0.9820273184053181, Wheeze: 0.98819188184589, Both: 0.9922535210568837
+testing......
+Val Accuracy: 0.6163434903047091
+epoch 82, Validation BCE loss: 2.4171926975250244
+Confusion Matrix [[567 108  86  14]
+ [154 212  15  10]
+ [ 59  17  96  34]
+ [ 15   6  36  15]]
+Accuracy Score 0.6163434903047091
+BEST ACCURACY TILL NOW 0.639196675900277
+---------------------------------------------
+epoch 83 iter 85/86 Train Total loss: 0.04786156117916107
+Train Accuracy: 0.9766039115335404
+Classwise_Losses Normal: 0.1913440396405492, Crackle: 0.04393890134051102, Wheeze: 0.032878559075977656, Both: 0.016743649791506457
+*************Metrics******************
+Se: 0.990434142679144, Sp: 0.936154949717636, Score: 0.96329454619839
+Normal: 0.936154949717636, Crackle: 0.9853907961296282, Wheeze: 0.9903057419097462, Both: 0.9956108265548201
+testing......
+Val Accuracy: 0.6398891966759003
+epoch 83, Validation BCE loss: 2.198660373687744
+Confusion Matrix [[568 134  61  12]
+ [123 247  13   8]
+ [ 62  15  90  39]
+ [ 18   7  28  19]]
+Accuracy Score 0.6398891966759003
+BEST ACCURACY TILL NOW 0.639196675900277
+Best ACC achieved...... 0.6398891966759003
+---------------------------------------------
+epoch 84 iter 85/86 Train Total loss: 0.048217084258794785
+Train Accuracy: 0.9780661670626941
+Classwise_Losses Normal: 0.1846530682258743, Crackle: 0.055196485779849896, Wheeze: 0.02288716408479877, Both: 0.019720854556843147
+*************Metrics******************
+Se: 0.9894685279704041, Sp: 0.9445244956091842, Score: 0.9669965117897941
+Normal: 0.9445244956091842, Crackle: 0.9825493170726444, Wheeze: 0.9918639052520812, Both: 0.9936305731780871
+testing......
+Val Accuracy: 0.5921052631578947
+epoch 84, Validation BCE loss: 2.5080859661102295
+Confusion Matrix [[484 190  92   9]
+ [112 257  14   8]
+ [ 53  24 103  26]
+ [ 17   9  35  11]]
+Accuracy Score 0.5921052631578947
+BEST ACCURACY TILL NOW 0.6398891966759003
+---------------------------------------------
+epoch 85 iter 85/86 Train Total loss: 0.05833667516708374
+Train Accuracy: 0.9727654907695119
+Classwise_Losses Normal: 0.23256840003836596, Crackle: 0.05489054090105189, Wheeze: 0.0344536147831104, Both: 0.02572108719965218
+*************Metrics******************
+Se: 0.9876393600833031, Sp: 0.9271375463994694, Score: 0.9573884532413863
+Normal: 0.9271375463994694, Crackle: 0.9820531226861413, Wheeze: 0.9887323942965682, Both: 0.9923838536944111
+testing......
+Val Accuracy: 0.6163434903047091
+epoch 85, Validation BCE loss: 2.339069128036499
+Confusion Matrix [[572 130  61  12]
+ [148 214  17  12]
+ [ 61  19  90  36]
+ [ 20   7  31  14]]
+Accuracy Score 0.6163434903047091
+BEST ACCURACY TILL NOW 0.6398891966759003
+---------------------------------------------
+epoch 86 iter 85/86 Train Total loss: 0.06509783864021301
+Train Accuracy: 0.9676475964174739
+Classwise_Losses Normal: 0.25495968383082024, Crackle: 0.06560265874234347, Wheeze: 0.041666802812055724, Both: 0.024634299570232148
+*************Metrics******************
+Se: 0.9844584749161396, Sp: 0.9164818920239113, Score: 0.9504701834700254
+Normal: 0.9164818920239113, Crackle: 0.9776011559987283, Wheeze: 0.9835948644091588, Both: 0.9924924924179812
+testing......
+Val Accuracy: 0.592797783933518
+epoch 86, Validation BCE loss: 2.403402805328369
+Confusion Matrix [[488 226  51  10]
+ [107 259  18   7]
+ [ 65  20  99  22]
+ [ 14  13  35  10]]
+Accuracy Score 0.592797783933518
+BEST ACCURACY TILL NOW 0.6398891966759003
+---------------------------------------------
+epoch 87 iter 85/86 Train Total loss: 0.059319380670785904
+Train Accuracy: 0.9742277462986656
+Classwise_Losses Normal: 0.1851315210514969, Crackle: 0.05857400611983113, Wheeze: 0.03894783861747924, Both: 0.03605604992703379
+*************Metrics******************
+Se: 0.9860054013513869, Sp: 0.9399141630228961, Score: 0.9629597821871415
+Normal: 0.9399141630228961, Crackle: 0.9797297296561766, Wheeze: 0.9876273652847434, Both: 0.9904901242874551
+testing......
+Val Accuracy: 0.6336565096952909
+epoch 87, Validation BCE loss: 2.41721773147583
+Confusion Matrix [[608 111  49   7]
+ [157 222   8   4]
+ [ 81  17  72  36]
+ [ 20  13  26  13]]
+Accuracy Score 0.6336565096952909
+BEST ACCURACY TILL NOW 0.6398891966759003
+---------------------------------------------
+epoch 88 iter 85/86 Train Total loss: 0.06054527685046196
+Train Accuracy: 0.9691098519466276
+Classwise_Losses Normal: 0.24117517597859206, Crackle: 0.05675664077313306, Wheeze: 0.03487032147742307, Both: 0.02915960420154457
+*************Metrics******************
+Se: 0.986218568593843, Sp: 0.9161048688452357, Score: 0.9511617187195394
+Normal: 0.9161048688452357, Crackle: 0.9828693789448345, Wheeze: 0.9863603732242384, Both: 0.9895678091662022
+testing......
+Val Accuracy: 0.6419667590027701
+epoch 88, Validation BCE loss: 2.3552727699279785
+Confusion Matrix [[562 150  58   5]
+ [108 264  12   7]
+ [ 65  25  81  35]
+ [ 13  13  26  20]]
+Accuracy Score 0.6419667590027701
+BEST ACCURACY TILL NOW 0.6398891966759003
+Best ACC achieved...... 0.6419667590027701
+---------------------------------------------
+epoch 89 iter 85/86 Train Total loss: 0.053308211266994476
+Train Accuracy: 0.9738621824163772
+Classwise_Losses Normal: 0.2368207595175013, Crackle: 0.046214506196251164, Wheeze: 0.029212476564127406, Both: 0.02136272736166481
+*************Metrics******************
+Se: 0.9899975603081242, Sp: 0.9256559766089173, Score: 0.9578267684585208
+Normal: 0.9256559766089173, Crackle: 0.9861516034266654, Wheeze: 0.9912536442426201, Both: 0.992619926126006
+testing......
+Val Accuracy: 0.6350415512465374
+epoch 89, Validation BCE loss: 2.3938257694244385
+Confusion Matrix [[582 114  69  10]
+ [138 219  19  15]
+ [ 59  14 105  28]
+ [ 15   5  41  11]]
+Accuracy Score 0.6350415512465374
+BEST ACCURACY TILL NOW 0.6419667590027701
+---------------------------------------------
+epoch 90 iter 85/86 Train Total loss: 0.043345704674720764
+Train Accuracy: 0.9780661670626941
+Classwise_Losses Normal: 0.19432525473836954, Crackle: 0.035863596247406995, Wheeze: 0.0263935365260464, Both: 0.019739621966571592
+*************Metrics******************
+Se: 0.9908521905880464, Sp: 0.9377372816296328, Score: 0.9642947361088396
+Normal: 0.9377372816296328, Crackle: 0.9863112391220238, Wheeze: 0.9920692140596923, Both: 0.9941986946342134
+testing......
+Val Accuracy: 0.610803324099723
+epoch 90, Validation BCE loss: 2.4764087200164795
+Confusion Matrix [[512 191  63   9]
+ [108 264   8  11]
+ [ 63  27  88  28]
+ [ 15  10  29  18]]
+Accuracy Score 0.610803324099723
+BEST ACCURACY TILL NOW 0.6419667590027701
+---------------------------------------------
+epoch 91 iter 85/86 Train Total loss: 0.058934133499860764
+Train Accuracy: 0.9740449643575214
+Classwise_Losses Normal: 0.21714237668019398, Crackle: 0.05097779622126901, Wheeze: 0.029202365855765865, Both: 0.035454373259100135
+*************Metrics******************
+Se: 0.9885057470539126, Sp: 0.9312590447951333, Score: 0.959882395924523
+Normal: 0.9312590447951333, Crackle: 0.9835820894788373, Wheeze: 0.9901589704019563, Both: 0.9915966385860228
+testing......
+Val Accuracy: 0.6135734072022161
+epoch 91, Validation BCE loss: 2.4474868774414062
+Confusion Matrix [[548 146  75   6]
+ [150 222  11   8]
+ [ 60  17 105  24]
+ [ 16   6  39  11]]
+Accuracy Score 0.6135734072022161
+BEST ACCURACY TILL NOW 0.6419667590027701
+---------------------------------------------
+epoch 92 iter 85/86 Train Total loss: 0.06374190747737885
+Train Accuracy: 0.9722171449460792
+Classwise_Losses Normal: 0.20458099332107468, Crackle: 0.058737822700830916, Wheeze: 0.034687225104300834, Both: 0.049189806236392006
+*************Metrics******************
+Se: 0.9854756716786148, Sp: 0.9313432835125864, Score: 0.9584094775956007
+Normal: 0.9313432835125864, Crackle: 0.9820089954286351, Wheeze: 0.9899062724592714, Both: 0.9843971630507521
+testing......
+Val Accuracy: 0.6225761772853186
+epoch 92, Validation BCE loss: 2.477426528930664
+Confusion Matrix [[559  93 113  10]
+ [145 219  17  10]
+ [ 64  16 111  15]
+ [ 20   5  37  10]]
+Accuracy Score 0.6225761772853186
+BEST ACCURACY TILL NOW 0.6419667590027701
+---------------------------------------------
+epoch 93 iter 85/86 Train Total loss: 0.04794320836663246
+Train Accuracy: 0.9760555657101078
+Classwise_Losses Normal: 0.1960164592447576, Crackle: 0.054158831735320524, Wheeze: 0.016519015933367187, Both: 0.021171112267006558
+*************Metrics******************
+Se: 0.9901864572382101, Sp: 0.9347670250225975, Score: 0.9624767411304038
+Normal: 0.9347670250225975, Crackle: 0.9820089954286351, Wheeze: 0.9955257269951138, Both: 0.9928622411853776
+testing......
+Val Accuracy: 0.5990304709141274
+epoch 93, Validation BCE loss: 2.311178207397461
+Confusion Matrix [[508 145  91  31]
+ [121 238  17  15]
+ [ 54  13 103  36]
+ [ 13  14  29  16]]
+Accuracy Score 0.5990304709141274
+BEST ACCURACY TILL NOW 0.6419667590027701
+---------------------------------------------
+epoch 94 iter 85/86 Train Total loss: 0.06424631923437119
+Train Accuracy: 0.9703893255346371
+Classwise_Losses Normal: 0.21035600404352278, Crackle: 0.04823429573217011, Wheeze: 0.050434852035105525, Both: 0.038078160358056175
+*************Metrics******************
+Se: 0.9839426876741151, Sp: 0.9318341531319865, Score: 0.9578884204030508
+Normal: 0.9318341531319865, Crackle: 0.9812171299037403, Wheeze: 0.9868900217780853, Both: 0.9836309523077656
+testing......
+Val Accuracy: 0.5512465373961218
+epoch 94, Validation BCE loss: 2.6904706954956055
+Confusion Matrix [[435 172 139  29]
+ [110 248  17  16]
+ [ 43  18  88  57]
+ [  9   9  29  25]]
+Accuracy Score 0.5512465373961218
+BEST ACCURACY TILL NOW 0.6419667590027701
+---------------------------------------------
+epoch 95 iter 85/86 Train Total loss: 0.06647391617298126
+Train Accuracy: 0.9680131602997624
+Classwise_Losses Normal: 0.22849584993342642, Crackle: 0.0675174614777831, Wheeze: 0.042026104317854106, Both: 0.03499864316051328
+*************Metrics******************
+Se: 0.985616772234109, Sp: 0.9152666179024642, Score: 0.9504416950682866
+Normal: 0.9152666179024642, Crackle: 0.977892409655277, Wheeze: 0.9868517165093609, Both: 0.9920058138813951
+testing......
+Val Accuracy: 0.6114958448753463
+epoch 95, Validation BCE loss: 2.131782054901123
+Confusion Matrix [[504 171  92   8]
+ [121 246  13  11]
+ [ 61   9 114  22]
+ [ 11   8  34  19]]
+Accuracy Score 0.6114958448753463
+BEST ACCURACY TILL NOW 0.6419667590027701
+---------------------------------------------
+epoch 96 iter 85/86 Train Total loss: 0.05127985402941704
+Train Accuracy: 0.9769694754158289
+Classwise_Losses Normal: 0.19320900169855826, Crackle: 0.0558041270179434, Wheeze: 0.023821848496602214, Both: 0.028687739676863278
+*************Metrics******************
+Se: 0.9888592878913399, Sp: 0.9403874813010145, Score: 0.9646233845961771
+Normal: 0.9403874813010145, Crackle: 0.9831625182296369, Wheeze: 0.9926632427738326, Both: 0.9907142856435205
+testing......
+Val Accuracy: 0.6087257617728532
+epoch 96, Validation BCE loss: 2.4632043838500977
+Confusion Matrix [[539 111 112  13]
+ [144 214  22  11]
+ [ 52  15 113  26]
+ [ 17   6  36  13]]
+Accuracy Score 0.6087257617728532
+BEST ACCURACY TILL NOW 0.6419667590027701
+---------------------------------------------
+epoch 97 iter 85/86 Train Total loss: 0.04286092519760132
+Train Accuracy: 0.9786145128861268
+Classwise_Losses Normal: 0.16199454259840482, Crackle: 0.047842629316709406, Wheeze: 0.02463855321416566, Both: 0.01616188922076358
+*************Metrics******************
+Se: 0.991490396232082, Sp: 0.9396170838777897, Score: 0.9655537400549359
+Normal: 0.9396170838777897, Crackle: 0.9842105262417888, Wheeze: 0.9927113701900357, Both: 0.9971651310420153
+testing......
+Val Accuracy: 0.6447368421052632
+epoch 97, Validation BCE loss: 2.3649489879608154
+Confusion Matrix [[601  87  77  10]
+ [165 206  14   6]
+ [ 54  18 112  22]
+ [ 15   5  40  12]]
+Accuracy Score 0.6447368421052632
+BEST ACCURACY TILL NOW 0.6419667590027701
+Best ACC achieved...... 0.6447368421052632
+---------------------------------------------
+epoch 98 iter 85/86 Train Total loss: 0.04525230824947357
+Train Accuracy: 0.978797294827271
+Classwise_Losses Normal: 0.19784653637524033, Crackle: 0.04185174243730944, Wheeze: 0.025617571852480283, Both: 0.015951319500508675
+*************Metrics******************
+Se: 0.9914425427145642, Sp: 0.9413468500404529, Score: 0.9663946963775085
+Normal: 0.9413468500404529, Crackle: 0.9867256636440469, Wheeze: 0.9934017594579618, Both: 0.9941605838690395
+testing......
+Val Accuracy: 0.6260387811634349
+epoch 98, Validation BCE loss: 2.2967324256896973
+Confusion Matrix [[557 123  85  10]
+ [144 224  13  10]
+ [ 55  17 104  30]
+ [ 14   6  33  19]]
+Accuracy Score 0.6260387811634349
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 99 iter 85/86 Train Total loss: 0.03779017925262451
+Train Accuracy: 0.9804423322975689
+Classwise_Losses Normal: 0.16172830025725082, Crackle: 0.04024596693970987, Wheeze: 0.017665873777052112, Both: 0.013713270898834633
+*************Metrics******************
+Se: 0.9926704128273147, Sp: 0.9441219157515152, Score: 0.968396164289415
+Normal: 0.9441219157515152, Crackle: 0.9863325739569984, Wheeze: 0.9956927493901155, Both: 0.995661605134081
+testing......
+Val Accuracy: 0.6419667590027701
+epoch 99, Validation BCE loss: 2.2286324501037598
+Confusion Matrix [[592 111  63   9]
+ [150 226   8   7]
+ [ 70  14  93  29]
+ [ 21   6  29  16]]
+Accuracy Score 0.6419667590027701
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 100 iter 85/86 Train Total loss: 0.03337084874510765
+Train Accuracy: 0.983001279473588
+Classwise_Losses Normal: 0.13213225476070398, Crackle: 0.0336666071606509, Wheeze: 0.014981007226263818, Both: 0.018956629847970256
+*************Metrics******************
+Se: 0.9936616284012437, Sp: 0.9510591672059125, Score: 0.9723603978035782
+Normal: 0.9510591672059125, Crackle: 0.9909706545529745, Wheeze: 0.9954988746439987, Both: 0.9944444443753859
+testing......
+Val Accuracy: 0.6253462603878116
+epoch 100, Validation BCE loss: 2.571465253829956
+Confusion Matrix [[547 164  59   5]
+ [130 247   7   7]
+ [ 72  18  93  23]
+ [ 22   5  29  16]]
+Accuracy Score 0.6253462603878116
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 101 iter 85/86 Train Total loss: 0.04208188131451607
+Train Accuracy: 0.9795284225918479
+Classwise_Losses Normal: 0.1690863155971394, Crackle: 0.03551954720368971, Wheeze: 0.025850574650714754, Both: 0.024452737543735538
+*************Metrics******************
+Se: 0.9917515768322356, Sp: 0.9421793920724849, Score: 0.9669654844523603
+Normal: 0.9421793920724849, Crackle: 0.9904622156279926, Wheeze: 0.993576017059702, Both: 0.9911634756265713
+testing......
+Val Accuracy: 0.6225761772853186
+epoch 101, Validation BCE loss: 2.4378104209899902
+Confusion Matrix [[551 147  73   4]
+ [129 237  15  10]
+ [ 71  16  93  26]
+ [ 18   9  27  18]]
+Accuracy Score 0.6225761772853186
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 102 iter 85/86 Train Total loss: 0.049909237772226334
+Train Accuracy: 0.9791628587095594
+Classwise_Losses Normal: 0.16846125229628184, Crackle: 0.04248776665687714, Wheeze: 0.02961967348275587, Both: 0.03442023874095939
+*************Metrics******************
+Se: 0.9895580378103771, Sp: 0.9475240206247212, Score: 0.9685410292175491
+Normal: 0.9475240206247212, Crackle: 0.9885844748106101, Wheeze: 0.987874464979467, Both: 0.9921540655497751
+testing......
+Val Accuracy: 0.6191135734072022
+epoch 102, Validation BCE loss: 2.4677679538726807
+Confusion Matrix [[548 139  69  19]
+ [124 240  12  15]
+ [ 72  21  75  38]
+ [ 17   8  16  31]]
+Accuracy Score 0.6191135734072022
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 103 iter 85/86 Train Total loss: 0.03569222241640091
+Train Accuracy: 0.986474136355328
+Classwise_Losses Normal: 0.12590536470794628, Crackle: 0.038118516612042797, Wheeze: 0.020167258466672743, Both: 0.017206559607511853
+*************Metrics******************
+Se: 0.9936569894369123, Sp: 0.965014577189139, Score: 0.9793357833130256
+Normal: 0.965014577189139, Crackle: 0.9914651492893696, Wheeze: 0.9947800148400613, Both: 0.9948224851335191
+testing......
+Val Accuracy: 0.6385041551246537
+epoch 103, Validation BCE loss: 2.5986766815185547
+Confusion Matrix [[603 113  53   6]
+ [153 220  14   4]
+ [ 76  19  91  20]
+ [ 18   5  41   8]]
+Accuracy Score 0.6385041551246537
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 104 iter 85/86 Train Total loss: 0.03342851996421814
+Train Accuracy: 0.9828184975324438
+Classwise_Losses Normal: 0.1470641213771415, Crackle: 0.0312899177045534, Wheeze: 0.015068136216029829, Both: 0.015101405138267956
+*************Metrics******************
+Se: 0.9932301740091952, Sp: 0.950561797681606, Score: 0.9718959858454006
+Normal: 0.950561797681606, Crackle: 0.9873417720824655, Wheeze: 0.9955914767821021, Both: 0.9970436067260131
+testing......
+Val Accuracy: 0.5782548476454293
+epoch 104, Validation BCE loss: 2.7860140800476074
+Confusion Matrix [[484 165  92  34]
+ [115 248  14  14]
+ [ 54  24  81  47]
+ [ 16  11  23  22]]
+Accuracy Score 0.5782548476454293
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 105 iter 85/86 Train Total loss: 0.034910816699266434
+Train Accuracy: 0.9828184975324438
+Classwise_Losses Normal: 0.14591162573822697, Crackle: 0.032378747920070214, Wheeze: 0.02522110914494034, Both: 0.01033269341186144
+*************Metrics******************
+Se: 0.9936399216491948, Sp: 0.9508315256000845, Score: 0.9722357236246397
+Normal: 0.9508315256000845, Crackle: 0.9884643113923243, Wheeze: 0.9946564884736905, Both: 0.9978432781453744
+testing......
+Val Accuracy: 0.6440443213296398
+epoch 105, Validation BCE loss: 2.6914403438568115
+Confusion Matrix [[604  83  83   5]
+ [160 213  13   5]
+ [ 70  13  95  28]
+ [ 16   8  30  18]]
+Accuracy Score 0.6440443213296398
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 106 iter 85/86 Train Total loss: 0.04471413046121597
+Train Accuracy: 0.9789800767684153
+Classwise_Losses Normal: 0.17596492967853572, Crackle: 0.033194452331008935, Wheeze: 0.030146186237285152, Both: 0.028548706446184485
+*************Metrics******************
+Se: 0.9910800385011274, Sp: 0.9410430838290974, Score: 0.9660615611651124
+Normal: 0.9410430838290974, Crackle: 0.9904831624457919, Wheeze: 0.9912472646979398, Both: 0.9914953932677892
+testing......
+Val Accuracy: 0.6149584487534626
+epoch 106, Validation BCE loss: 2.9692864418029785
+Confusion Matrix [[592  74 106   3]
+ [173 194  22   2]
+ [ 78  14  93  21]
+ [ 24   4  35   9]]
+Accuracy Score 0.6149584487534626
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 107 iter 85/86 Train Total loss: 0.040877606719732285
+Train Accuracy: 0.9833668433558764
+Classwise_Losses Normal: 0.13955122774457973, Crackle: 0.0485524023982852, Wheeze: 0.02299582431243844, Both: 0.017368052124534697
+*************Metrics******************
+Se: 0.9912663754737071, Sp: 0.9592290584907911, Score: 0.9752477169822491
+Normal: 0.9592290584907911, Crackle: 0.9861313867893335, Wheeze: 0.9935344826872462, Both: 0.9941176469857268
+testing......
+Val Accuracy: 0.628808864265928
+epoch 107, Validation BCE loss: 2.5809922218322754
+Confusion Matrix [[559 143  68   5]
+ [129 241  15   6]
+ [ 58  17  97  34]
+ [ 14   8  39  11]]
+Accuracy Score 0.628808864265928
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 108 iter 85/86 Train Total loss: 0.036386653780937195
+Train Accuracy: 0.9824529336501553
+Classwise_Losses Normal: 0.16693765828177803, Crackle: 0.028283379260494006, Wheeze: 0.021255584734608052, Both: 0.012275102530299837
+*************Metrics******************
+Se: 0.9944120504620206, Sp: 0.9461254611847879, Score: 0.9702687558234042
+Normal: 0.9461254611847879, Crackle: 0.9912087911361753, Wheeze: 0.9950177935234864, Both: 0.9970282317238465
+testing......
+Val Accuracy: 0.6177285318559557
+epoch 108, Validation BCE loss: 2.643272638320923
+Confusion Matrix [[542 135  87  11]
+ [124 237  19  11]
+ [ 51  19  96  40]
+ [ 14   6  35  17]]
+Accuracy Score 0.6177285318559557
+BEST ACCURACY TILL NOW 0.6447368421052632
+---------------------------------------------
+epoch 109 iter 85/86 Train Total loss: 0.029713118448853493
+Train Accuracy: 0.9857430085907511
+Classwise_Losses Normal: 0.12471597428350512, Crackle: 0.02762909439353582, Wheeze: 0.014466248806488096, Both: 0.01553486010372556
+*************Metrics******************
+Se: 0.9948792976594822, Sp: 0.958394160513986, Score: 0.9766367290867342
+Normal: 0.958394160513986, Crackle: 0.9942070962350322, Wheeze: 0.9941986946342134, Both: 0.9962714391501662
+testing......
+Val Accuracy: 0.6516620498614959
+epoch 109, Validation BCE loss: 2.7227087020874023
+Confusion Matrix [[630  79  61   5]
+ [167 204  15   5]
+ [ 70  15  94  27]
+ [ 17   5  37  13]]
+Accuracy Score 0.6516620498614959
+BEST ACCURACY TILL NOW 0.6447368421052632
+Best ACC achieved...... 0.6516620498614959
+Best Overall ACC achieved...... 0.6516620498614959
+---------------------------------------------
+epoch 110 iter 85/86 Train Total loss: 0.032910361886024475
+Train Accuracy: 0.9826357155912995
+Classwise_Losses Normal: 0.13686389625617934, Crackle: 0.03546391331336417, Wheeze: 0.016764272897617304, Both: 0.01149008586980282
+*************Metrics******************
+Se: 0.992772825753353, Sp: 0.9507575756855488, Score: 0.9717652007194508
+Normal: 0.9507575756855488, Crackle: 0.9868708970833793, Wheeze: 0.9949820787817218, Both: 0.9963898916248095
+testing......
+Val Accuracy: 0.610803324099723
+epoch 110, Validation BCE loss: 2.8703954219818115
+Confusion Matrix [[550 164  50  11]
+ [130 233  13  15]
+ [ 64  23  88  31]
+ [ 14   7  40  11]]
+Accuracy Score 0.610803324099723
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 111 iter 85/86 Train Total loss: 0.03792192041873932
+Train Accuracy: 0.9791628587095594
+Classwise_Losses Normal: 0.14448853886178206, Crackle: 0.02661813812466342, Wheeze: 0.03615578366230688, Both: 0.015004002614530132
+*************Metrics******************
+Se: 0.990769978067226, Sp: 0.9438700147013391, Score: 0.9673199963842826
+Normal: 0.9438700147013391, Crackle: 0.9900426741827851, Wheeze: 0.9890350876470004, Both: 0.9932985851829265
+testing......
+Val Accuracy: 0.6364265927977839
+epoch 111, Validation BCE loss: 2.7144744396209717
+Confusion Matrix [[560 128  81   6]
+ [130 236  18   7]
+ [ 58  18 106  24]
+ [ 14   8  33  17]]
+Accuracy Score 0.6364265927977839
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 112 iter 85/86 Train Total loss: 0.04443468153476715
+Train Accuracy: 0.9802595503564248
+Classwise_Losses Normal: 0.14970316690984758, Crackle: 0.049563691845238254, Wheeze: 0.019817955571685954, Both: 0.030417525542900316
+*************Metrics******************
+Se: 0.9892761393378546, Sp: 0.9532163741993264, Score: 0.9712462567685904
+Normal: 0.9532163741993264, Crackle: 0.9817784255844186, Wheeze: 0.9927325580673887, Both: 0.9933579335060253
+testing......
+Val Accuracy: 0.6440443213296398
+epoch 112, Validation BCE loss: 2.663856029510498
+Confusion Matrix [[615  70  79  11]
+ [162 199  21   9]
+ [ 63  12 103  28]
+ [ 16   8  35  13]]
+Accuracy Score 0.6440443213296398
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 113 iter 85/86 Train Total loss: 0.03576827794313431
+Train Accuracy: 0.9840979711204533
+Classwise_Losses Normal: 0.12412741488422155, Crackle: 0.032353621687327055, Wheeze: 0.019072102872284134, Both: 0.016730178672751193
+*************Metrics******************
+Se: 0.9921779515283176, Sp: 0.9601449274666563, Score: 0.9761614394974869
+Normal: 0.9601449274666563, Crackle: 0.988888888815638, Wheeze: 0.9919531820781308, Both: 0.9956331877004635
+testing......
+Val Accuracy: 0.6253462603878116
+epoch 113, Validation BCE loss: 2.691880464553833
+Confusion Matrix [[579 120  70   6]
+ [160 216  11   4]
+ [ 67  19  93  27]
+ [ 19  10  28  15]]
+Accuracy Score 0.6253462603878116
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 114 iter 85/86 Train Total loss: 0.06312486529350281
+Train Accuracy: 0.9756900018278194
+Classwise_Losses Normal: 0.19777624847336442, Crackle: 0.06745163376956928, Wheeze: 0.04414893648366628, Both: 0.03227132590709716
+*************Metrics******************
+Se: 0.986829268220476, Sp: 0.9423778263353482, Score: 0.9646035472779121
+Normal: 0.9423778263353482, Crackle: 0.9819102748927707, Wheeze: 0.9867060560571119, Both: 0.9919354837982453
+testing......
+Val Accuracy: 0.6087257617728532
+epoch 114, Validation BCE loss: 2.6555700302124023
+Confusion Matrix [[511 154  99  11]
+ [110 257  17   7]
+ [ 56  23  95  32]
+ [ 12   8  36  16]]
+Accuracy Score 0.6087257617728532
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 115 iter 85/86 Train Total loss: 0.0441448837518692
+Train Accuracy: 0.98135624200329
+Classwise_Losses Normal: 0.1631205110362216, Crackle: 0.03330965879882337, Wheeze: 0.020155162871425995, Both: 0.03471464136164894
+*************Metrics******************
+Se: 0.992688276798, Sp: 0.9473684209833796, Score: 0.9700283488906898
+Normal: 0.9473684209833796, Crackle: 0.991691842825401, Wheeze: 0.9928263987810025, Both: 0.9935018049824188
+testing......
+Val Accuracy: 0.6433518005540166
+epoch 115, Validation BCE loss: 2.541926383972168
+Confusion Matrix [[595 113  60   7]
+ [143 231  12   5]
+ [ 73  16  90  27]
+ [ 21   8  30  13]]
+Accuracy Score 0.6433518005540166
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 116 iter 85/86 Train Total loss: 0.04424326494336128
+Train Accuracy: 0.9804423322975689
+Classwise_Losses Normal: 0.15553261666414794, Crackle: 0.048056569553850036, Wheeze: 0.021059037511246822, Both: 0.02220480615474999
+*************Metrics******************
+Se: 0.9906588003202563, Sp: 0.9508196720633771, Score: 0.9707392361918168
+Normal: 0.9508196720633771, Crackle: 0.984536082401728, Wheeze: 0.9921203437684729, Both: 0.995433789878582
+testing......
+Val Accuracy: 0.6232686980609419
+epoch 116, Validation BCE loss: 2.6106016635894775
+Confusion Matrix [[572 129  67   7]
+ [154 226   9   2]
+ [ 68  24  85  29]
+ [ 15  13  27  17]]
+Accuracy Score 0.6232686980609419
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 117 iter 85/86 Train Total loss: 0.06852716952562332
+Train Accuracy: 0.9729482727106561
+Classwise_Losses Normal: 0.19277970766978658, Crackle: 0.06328473268943864, Wheeze: 0.04837413128790669, Both: 0.05220446202839984
+*************Metrics******************
+Se: 0.9845094663645556, Sp: 0.9394586893917766, Score: 0.9619840778781661
+Normal: 0.9394586893917766, Crackle: 0.9812949639581803, Wheeze: 0.9857997009726608, Both: 0.9865571321145216
+testing......
+Val Accuracy: 0.6204986149584487
+epoch 117, Validation BCE loss: 2.342362880706787
+Confusion Matrix [[521 174  68  12]
+ [101 273  12   5]
+ [ 67  24  79  36]
+ [ 13  13  23  23]]
+Accuracy Score 0.6204986149584487
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 118 iter 85/86 Train Total loss: 0.04888379946351051
+Train Accuracy: 0.9758727837689636
+Classwise_Losses Normal: 0.20166077265266222, Crackle: 0.045183556821462946, Wheeze: 0.01940962256839667, Both: 0.029208816913622575
+*************Metrics******************
+Se: 0.9899681917550796, Sp: 0.9342485548457914, Score: 0.9621083733004354
+Normal: 0.9342485548457914, Crackle: 0.9853157121156156, Wheeze: 0.9941605838690395, Both: 0.990405903985948
+testing......
+Val Accuracy: 0.6218836565096952
+epoch 118, Validation BCE loss: 2.3571372032165527
+Confusion Matrix [[582 127  53  13]
+ [160 212  10   9]
+ [ 67  11  86  42]
+ [ 19   8  27  18]]
+Accuracy Score 0.6218836565096952
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 119 iter 85/86 Train Total loss: 0.036265917122364044
+Train Accuracy: 0.9842807530615975
+Classwise_Losses Normal: 0.13607666951859082, Crackle: 0.042957685393987796, Wheeze: 0.01351887256283608, Both: 0.01977960642792469
+*************Metrics******************
+Se: 0.9921989272799465, Sp: 0.9605551496741743, Score: 0.9763770384770605
+Normal: 0.9605551496741743, Crackle: 0.9835820894788373, Wheeze: 0.9985642497488469, Both: 0.9941563184080238
+testing......
+Val Accuracy: 0.621191135734072
+epoch 119, Validation BCE loss: 2.2595717906951904
+Confusion Matrix [[531 177  59   8]
+ [122 248  12   9]
+ [ 59  13  97  37]
+ [ 14  11  26  21]]
+Accuracy Score 0.621191135734072
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 120 iter 85/86 Train Total loss: 0.03598327189683914
+Train Accuracy: 0.9835496252970206
+Classwise_Losses Normal: 0.14202971399478967, Crackle: 0.027798908785584178, Wheeze: 0.028536580008975895, Both: 0.013261177105898284
+*************Metrics******************
+Se: 0.995095635042048, Sp: 0.949748743650413, Score: 0.9724221893462305
+Normal: 0.949748743650413, Crackle: 0.996320824062081, Wheeze: 0.9919999999278547, Both: 0.9970238094496263
+testing......
+Val Accuracy: 0.6329639889196675
+epoch 120, Validation BCE loss: 2.448073148727417
+Confusion Matrix [[577 128  62   8]
+ [144 230  11   6]
+ [ 61  14  87  44]
+ [ 14  12  26  20]]
+Accuracy Score 0.6329639889196675
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 121 iter 85/86 Train Total loss: 0.034931231290102005
+Train Accuracy: 0.986474136355328
+Classwise_Losses Normal: 0.09274082641233085, Crackle: 0.038347053906890964, Wheeze: 0.02628166738025226, Both: 0.021867347148344977
+*************Metrics******************
+Se: 0.9906519654129446, Sp: 0.9730561969997649, Score: 0.9818540812063548
+Normal: 0.9730561969997649, Crackle: 0.9899425286645157, Wheeze: 0.9919058130248782, Both: 0.9901477831815519
+testing......
+Val Accuracy: 0.6426592797783933
+epoch 121, Validation BCE loss: 2.477149248123169
+Confusion Matrix [[564 169  36   6]
+ [119 257  12   3]
+ [ 68  18  98  22]
+ [ 15  12  36   9]]
+Accuracy Score 0.6426592797783933
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 122 iter 85/86 Train Total loss: 0.041897960007190704
+Train Accuracy: 0.9824529336501553
+Classwise_Losses Normal: 0.156474267384997, Crackle: 0.04216985430824864, Wheeze: 0.02417842548476417, Both: 0.021793580256439512
+*************Metrics******************
+Se: 0.9927184465296566, Sp: 0.9511472982271543, Score: 0.9719328723784054
+Normal: 0.9511472982271543, Crackle: 0.9891930835022196, Wheeze: 0.9939939939193699, Both: 0.9949999999289286
+testing......
+Val Accuracy: 0.6509695290858726
+epoch 122, Validation BCE loss: 2.3430018424987793
+Confusion Matrix [[598 125  44   8]
+ [146 228   7  10]
+ [ 62  12  96  36]
+ [ 18   5  31  18]]
+Accuracy Score 0.6509695290858726
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 123 iter 85/86 Train Total loss: 0.02944193407893181
+Train Accuracy: 0.986474136355328
+Classwise_Losses Normal: 0.11841024351415876, Crackle: 0.028123421444614227, Wheeze: 0.019171682030086824, Both: 0.010586333581833265
+*************Metrics******************
+Se: 0.993883043724452, Sp: 0.9645953756528473, Score: 0.9792392096886496
+Normal: 0.9645953756528473, Crackle: 0.9907539117360773, Wheeze: 0.9956043955314576, Both: 0.9954407294076414
+testing......
+Val Accuracy: 0.6454293628808865
+epoch 123, Validation BCE loss: 2.4953322410583496
+Confusion Matrix [[594 114  54  13]
+ [146 220  13  12]
+ [ 58  13 104  31]
+ [ 13   4  41  14]]
+Accuracy Score 0.6454293628808865
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 124 iter 85/86 Train Total loss: 0.028005488216876984
+Train Accuracy: 0.9870224821787607
+Classwise_Losses Normal: 0.11644131623539504, Crackle: 0.02257334639140963, Wheeze: 0.018910374981644454, Both: 0.011847236249982395
+*************Metrics******************
+Se: 0.9943613630060535, Sp: 0.9655172413099485, Score: 0.979939302158001
+Normal: 0.9655172413099485, Crackle: 0.9939984995503378, Wheeze: 0.9947994055724518, Both: 0.994285714214694
+testing......
+Val Accuracy: 0.6385041551246537
+epoch 124, Validation BCE loss: 2.497429370880127
+Confusion Matrix [[580 127  59   9]
+ [144 235  10   2]
+ [ 67  16  93  30]
+ [ 17  11  30  14]]
+Accuracy Score 0.6385041551246537
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 125 iter 85/86 Train Total loss: 0.03671911358833313
+Train Accuracy: 0.9824529336501553
+Classwise_Losses Normal: 0.14611784833617852, Crackle: 0.03361971809256795, Wheeze: 0.018734712478637425, Both: 0.019620408981523882
+*************Metrics******************
+Se: 0.992151091415834, Sp: 0.95408895258579, Score: 0.973120022000812
+Normal: 0.95408895258579, Crackle: 0.9889380530244147, Wheeze: 0.9941391940663635, Both: 0.9933628317851504
+testing......
+Val Accuracy: 0.6295013850415513
+epoch 125, Validation BCE loss: 2.457550525665283
+Confusion Matrix [[554 148  65   8]
+ [131 232  17  11]
+ [ 59  13 110  24]
+ [ 12   8  39  13]]
+Accuracy Score 0.6295013850415513
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 126 iter 85/86 Train Total loss: 0.027605406939983368
+Train Accuracy: 0.9857430085907511
+Classwise_Losses Normal: 0.1148250312567881, Crackle: 0.02578216790277348, Wheeze: 0.01654211792852842, Both: 0.00961652388171944
+*************Metrics******************
+Se: 0.9948199308587948, Sp: 0.9597741707156123, Score: 0.9772970507872036
+Normal: 0.9597741707156123, Crackle: 0.9941391940663635, Wheeze: 0.9942321556601131, Both: 0.9961597541477605
+testing......
+Val Accuracy: 0.6364265927977839
+epoch 126, Validation BCE loss: 2.5650246143341064
+Confusion Matrix [[573 119  76   7]
+ [142 227  13   9]
+ [ 55  13 107  31]
+ [ 12   8  40  12]]
+Accuracy Score 0.6364265927977839
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 127 iter 85/86 Train Total loss: 0.03366694226861
+Train Accuracy: 0.9833668433558764
+Classwise_Losses Normal: 0.12723526546442912, Crackle: 0.03345621094993958, Wheeze: 0.020632167833409657, Both: 0.014913507609554382
+*************Metrics******************
+Se: 0.9913001449257154, Sp: 0.9587396848493069, Score: 0.9750199148875112
+Normal: 0.9587396848493069, Crackle: 0.9874815905016583, Wheeze: 0.9918699186258781, Both: 0.994393833146854
+testing......
+Val Accuracy: 0.6419667590027701
+epoch 127, Validation BCE loss: 2.704361915588379
+Confusion Matrix [[617  70  82   6]
+ [171 193  15  12]
+ [ 56  13 102  35]
+ [ 16   6  35  15]]
+Accuracy Score 0.6419667590027701
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 128 iter 85/86 Train Total loss: 0.035180117934942245
+Train Accuracy: 0.9853774447084628
+Classwise_Losses Normal: 0.13101837792763218, Crackle: 0.03386440932249583, Wheeze: 0.02404577333838335, Both: 0.014640381552318888
+*************Metrics******************
+Se: 0.9924647544244679, Sp: 0.9638909358169573, Score: 0.9781778451207126
+Normal: 0.9638909358169573, Crackle: 0.9891618496395115, Wheeze: 0.9940520445357584, Both: 0.9942238266430165
+testing......
+Val Accuracy: 0.5872576177285319
+epoch 128, Validation BCE loss: 3.0404508113861084
+Confusion Matrix [[522 186  59   8]
+ [125 244  17   5]
+ [ 79  21  70  36]
+ [ 14  12  34  12]]
+Accuracy Score 0.5872576177285319
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 129 iter 85/86 Train Total loss: 0.032470133155584335
+Train Accuracy: 0.9833668433558764
+Classwise_Losses Normal: 0.14048720704956533, Crackle: 0.02609263904054666, Wheeze: 0.019272436638311484, Both: 0.015466356029037941
+*************Metrics******************
+Se: 0.9933855952234162, Sp: 0.9539236860364347, Score: 0.9736546406299255
+Normal: 0.9539236860364347, Crackle: 0.9911764705153547, Wheeze: 0.9955390333832314, Both: 0.9934640522154348
+testing......
+Val Accuracy: 0.6378116343490304
+epoch 129, Validation BCE loss: 2.61665415763855
+Confusion Matrix [[590 137  42   6]
+ [152 222  13   4]
+ [ 76  15  87  28]
+ [ 13  10  27  22]]
+Accuracy Score 0.6378116343490304
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 130 iter 85/86 Train Total loss: 0.03274717554450035
+Train Accuracy: 0.988119173825626
+Classwise_Losses Normal: 0.08418643042167692, Crackle: 0.035090573336471816, Wheeze: 0.022692224341944008, Both: 0.019850797958634633
+*************Metrics******************
+Se: 0.9929526123212915, Sp: 0.9734513273618399, Score: 0.9832019698415657
+Normal: 0.9734513273618399, Crackle: 0.989803350255659, Wheeze: 0.9948186527761053, Both: 0.9942487418408161
+testing......
+Val Accuracy: 0.6149584487534626
+epoch 130, Validation BCE loss: 2.6179897785186768
+Confusion Matrix [[572 136  58   9]
+ [152 212  14  13]
+ [ 69  12  87  38]
+ [ 17   4  34  17]]
+Accuracy Score 0.6149584487534626
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 131 iter 85/86 Train Total loss: 0.04135240614414215
+Train Accuracy: 0.9784317309449826
+Classwise_Losses Normal: 0.1639968329398222, Crackle: 0.028510829554943506, Wheeze: 0.035159389020801596, Both: 0.016754088656438043
+*************Metrics******************
+Se: 0.9915737297899698, Sp: 0.9415041782074163, Score: 0.966538953998693
+Normal: 0.9415041782074163, Crackle: 0.9911634756265713, Wheeze: 0.9878234398030576, Both: 0.9955979456349525
+testing......
+Val Accuracy: 0.646814404432133
+epoch 131, Validation BCE loss: 2.5281801223754883
+Confusion Matrix [[590 130  51   4]
+ [137 231  15   8]
+ [ 63  15 100  28]
+ [ 14  10  35  13]]
+Accuracy Score 0.646814404432133
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 132 iter 85/86 Train Total loss: 0.034571483731269836
+Train Accuracy: 0.983915189179309
+Classwise_Losses Normal: 0.12640960209980603, Crackle: 0.030235992205449837, Wheeze: 0.017823975316796605, Both: 0.0206772050377769
+*************Metrics******************
+Se: 0.9921491657758478, Sp: 0.9598566307555659, Score: 0.9760028982657069
+Normal: 0.9598566307555659, Crackle: 0.9912854029781203, Wheeze: 0.9939577038524202, Both: 0.9912727272006349
+testing......
+Val Accuracy: 0.6405817174515236
+epoch 132, Validation BCE loss: 2.601341962814331
+Confusion Matrix [[610 101  54  10]
+ [164 203  14  10]
+ [ 59  12  89  46]
+ [  9  10  30  23]]
+Accuracy Score 0.6405817174515236
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 133 iter 85/86 Train Total loss: 0.03489842265844345
+Train Accuracy: 0.9840979711204533
+Classwise_Losses Normal: 0.12589593635435414, Crackle: 0.029767333977145465, Wheeze: 0.021483644585550007, Both: 0.017752961164078714
+*************Metrics******************
+Se: 0.9924131178909145, Sp: 0.9595667869343274, Score: 0.975989952412621
+Normal: 0.9595667869343274, Crackle: 0.9910846953201276, Wheeze: 0.9917602995511791, Both: 0.994306049751295
+testing......
+Val Accuracy: 0.6343490304709142
+epoch 133, Validation BCE loss: 2.6371607780456543
+Confusion Matrix [[574 168  30   3]
+ [139 241   5   6]
+ [ 67  25  84  30]
+ [ 21  12  22  17]]
+Accuracy Score 0.6343490304709142
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 134 iter 85/86 Train Total loss: 0.03969931602478027
+Train Accuracy: 0.9802595503564248
+Classwise_Losses Normal: 0.16445275951709196, Crackle: 0.03965752696949541, Wheeze: 0.013247632586483269, Both: 0.02352895287496149
+*************Metrics******************
+Se: 0.9910106899180509, Sp: 0.9476014759448266, Score: 0.9693060829314387
+Normal: 0.9476014759448266, Crackle: 0.9854967366943078, Wheeze: 0.9963768115220017, Both: 0.9911569638178956
+testing......
+Val Accuracy: 0.6218836565096952
+epoch 134, Validation BCE loss: 2.58036732673645
+Confusion Matrix [[541 161  59  14]
+ [131 240  12   8]
+ [ 56  19 100  31]
+ [ 13   8  34  17]]
+Accuracy Score 0.6218836565096952
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 135 iter 85/86 Train Total loss: 0.03425189480185509
+Train Accuracy: 0.9835496252970206
+Classwise_Losses Normal: 0.1347270651828297, Crackle: 0.03894722709330639, Wheeze: 0.01687025992071478, Both: 0.012528236302083984
+*************Metrics******************
+Se: 0.9919196865089188, Sp: 0.9589041095199061, Score: 0.9754118980144124
+Normal: 0.9589041095199061, Crackle: 0.9859259258528945, Wheeze: 0.9935111751266396, Both: 0.9962880474390284
+testing......
+Val Accuracy: 0.6121883656509696
+epoch 135, Validation BCE loss: 2.752241849899292
+Confusion Matrix [[516 194  56   9]
+ [111 261  13   6]
+ [ 57  26  96  27]
+ [ 16   9  36  11]]
+Accuracy Score 0.6121883656509696
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 136 iter 85/86 Train Total loss: 0.03022540733218193
+Train Accuracy: 0.9862913544141838
+Classwise_Losses Normal: 0.12476298752607609, Crackle: 0.018631775120940886, Wheeze: 0.024556324058543872, Both: 0.015935321854891056
+*************Metrics******************
+Se: 0.9948979591111592, Sp: 0.9601476014051553, Score: 0.9775227802581572
+Normal: 0.9601476014051553, Crackle: 0.9957924262976303, Wheeze: 0.9939894815181076, Both: 0.9948491537163467
+testing......
+Val Accuracy: 0.6177285318559557
+epoch 136, Validation BCE loss: 2.760714292526245
+Confusion Matrix [[536 150  84   5]
+ [129 240  14   8]
+ [ 64  15 104  23]
+ [ 17   7  36  12]]
+Accuracy Score 0.6177285318559557
+BEST ACCURACY TILL NOW 0.6516620498614959
+---------------------------------------------
+epoch 137 iter 85/86 Train Total loss: 0.024187438189983368
+Train Accuracy: 0.9879363918844818
+Classwise_Losses Normal: 0.10331632905586595, Crackle: 0.017930452931551537, Wheeze: 0.016452994810054196, Both: 0.010176396231814806
+*************Metrics******************
+Se: 0.9958475817540904, Sp: 0.9644153957179075, Score: 0.9801314887359989
+Normal: 0.9644153957179075, Crackle: 0.9949385393351455, Wheeze: 0.9948867785978901, Both: 0.9977645304770668
+testing......
+Val Accuracy: 0.6530470914127424
+epoch 137, Validation BCE loss: 2.738779067993164
+Confusion Matrix [[617 102  50   6]
+ [157 216  10   8]
+ [ 72  14 101  19]
+ [ 19   7  37   9]]
+Accuracy Score 0.6530470914127424
+BEST ACCURACY TILL NOW 0.6516620498614959
+Best ACC achieved...... 0.6530470914127424
+Best Overall ACC achieved...... 0.6530470914127424
+---------------------------------------------
+epoch 138 iter 85/86 Train Total loss: 0.026255346834659576
+Train Accuracy: 0.988119173825626
+Classwise_Losses Normal: 0.1047058412937574, Crackle: 0.028543531450548887, Wheeze: 0.010045541674883769, Both: 0.013625863550649297
+*************Metrics******************
+Se: 0.9951760732516758, Sp: 0.9660377357761482, Score: 0.980606904513912
+Normal: 0.9660377357761482, Crackle: 0.990613718340028, Wheeze: 0.9969604862464316, Both: 0.9979238753634656
+testing......
+Val Accuracy: 0.6142659279778393
+epoch 138, Validation BCE loss: 2.9446191787719727
+Confusion Matrix [[552 161  58   4]
+ [134 243   8   6]
+ [ 80  19  83  24]
+ [ 21   8  34   9]]
+Accuracy Score 0.6142659279778393
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 139 iter 85/86 Train Total loss: 0.027865473181009293
+Train Accuracy: 0.9884847377079143
+Classwise_Losses Normal: 0.08524023052803424, Crackle: 0.028338659663883433, Wheeze: 0.019291642909264675, Both: 0.018076469101699744
+*************Metrics******************
+Se: 0.993301435335409, Sp: 0.9728892330772356, Score: 0.9830953342063223
+Normal: 0.9728892330772356, Crackle: 0.992619926126006, Wheeze: 0.9931833673487946, Both: 0.9941089837265017
+testing......
+Val Accuracy: 0.621191135734072
+epoch 139, Validation BCE loss: 2.7474453449249268
+Confusion Matrix [[553 141  76   5]
+ [136 235  13   7]
+ [ 73   9  96  28]
+ [ 16  11  32  13]]
+Accuracy Score 0.621191135734072
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 140 iter 85/86 Train Total loss: 0.02206030674278736
+Train Accuracy: 0.9884847377079143
+Classwise_Losses Normal: 0.08336928467166353, Crackle: 0.018889132250856266, Wheeze: 0.013030885165859415, Both: 0.012850717104340473
+*************Metrics******************
+Se: 0.9948967192470307, Sp: 0.9690265486011044, Score: 0.9819616339240675
+Normal: 0.9690265486011044, Crackle: 0.9941391940663635, Wheeze: 0.9963235293385058, Both: 0.9942446042450185
+testing......
+Val Accuracy: 0.6156509695290858
+epoch 140, Validation BCE loss: 2.7653136253356934
+Confusion Matrix [[547 142  76  10]
+ [138 225  15  13]
+ [ 64  16  97  29]
+ [ 13  10  29  20]]
+Accuracy Score 0.6156509695290858
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 141 iter 85/86 Train Total loss: 0.02834492176771164
+Train Accuracy: 0.9862913544141838
+Classwise_Losses Normal: 0.1070286135157671, Crackle: 0.024191576584333303, Wheeze: 0.020394205125961382, Both: 0.014162644764652505
+*************Metrics******************
+Se: 0.9936724263085662, Sp: 0.9640234947897194, Score: 0.9788479605491428
+Normal: 0.9640234947897194, Crackle: 0.9933035713546651, Wheeze: 0.9939894815181076, Both: 0.9937238493030877
+testing......
+Val Accuracy: 0.6405817174515236
+epoch 141, Validation BCE loss: 2.8486669063568115
+Confusion Matrix [[598 109  62   6]
+ [164 214   8   5]
+ [ 67  12 104  23]
+ [ 18   8  37   9]]
+Accuracy Score 0.6405817174515236
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 142 iter 85/86 Train Total loss: 0.034614916890859604
+Train Accuracy: 0.9862913544141838
+Classwise_Losses Normal: 0.10175600012981828, Crackle: 0.024944389512051208, Wheeze: 0.022985310166803104, Both: 0.030397345332157655
+*************Metrics******************
+Se: 0.9925138854629911, Sp: 0.9669172931603822, Score: 0.9797155893116867
+Normal: 0.9669172931603822, Crackle: 0.9907473308903384, Wheeze: 0.9935897435189752, Both: 0.9932432431686755
+testing......
+Val Accuracy: 0.6412742382271468
+epoch 142, Validation BCE loss: 2.860095739364624
+Confusion Matrix [[634  74  61   6]
+ [181 195  13   2]
+ [ 85  11  88  22]
+ [ 24   4  35   9]]
+Accuracy Score 0.6412742382271468
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 143 iter 85/86 Train Total loss: 0.03780849277973175
+Train Accuracy: 0.9831840614147321
+Classwise_Losses Normal: 0.1336894121134915, Crackle: 0.038098243049009106, Wheeze: 0.025814335922668994, Both: 0.017190777613959592
+*************Metrics******************
+Se: 0.9916850084867926, Sp: 0.9580318378467416, Score: 0.9748584231667672
+Normal: 0.9580318378467416, Crackle: 0.9893858983328746, Wheeze: 0.9915966385860228, Both: 0.9940387480630375
+testing......
+Val Accuracy: 0.6087257617728532
+epoch 143, Validation BCE loss: 2.979278802871704
+Confusion Matrix [[556 143  67   9]
+ [143 228  11   9]
+ [ 68  18  65  55]
+ [ 13  12  17  30]]
+Accuracy Score 0.6087257617728532
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 144 iter 85/86 Train Total loss: 0.03253820911049843
+Train Accuracy: 0.9853774447084628
+Classwise_Losses Normal: 0.11394030277707812, Crackle: 0.036813373486372813, Wheeze: 0.016712884956162535, Both: 0.015730038543193534
+*************Metrics******************
+Se: 0.9924647544244679, Sp: 0.9638909358169573, Score: 0.9781778451207126
+Normal: 0.9638909358169573, Crackle: 0.9892318735829698, Wheeze: 0.994920174093257, Both: 0.9932985851829265
+testing......
+Val Accuracy: 0.6114958448753463
+epoch 144, Validation BCE loss: 2.961859941482544
+Confusion Matrix [[541 140  86   8]
+ [134 234  17   6]
+ [ 65  20  97  24]
+ [ 15  10  36  11]]
+Accuracy Score 0.6114958448753463
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 145 iter 85/86 Train Total loss: 0.030281133949756622
+Train Accuracy: 0.9846463169438859
+Classwise_Losses Normal: 0.1281745594578742, Crackle: 0.02321711191896884, Wheeze: 0.020632501150244217, Both: 0.011310772685840572
+*************Metrics******************
+Se: 0.9941262848021934, Sp: 0.9566787002919367, Score: 0.975402492547065
+Normal: 0.9566787002919367, Crackle: 0.9927431058786109, Wheeze: 0.992498124456677, Both: 0.9970909090183935
+testing......
+Val Accuracy: 0.6011080332409973
+epoch 145, Validation BCE loss: 2.9933791160583496
+Confusion Matrix [[606  86  74   9]
+ [206 160  16   9]
+ [ 55  19  77  55]
+ [ 14   6  27  25]]
+Accuracy Score 0.6011080332409973
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 146 iter 85/86 Train Total loss: 0.042399968951940536
+Train Accuracy: 0.9837324072381648
+Classwise_Losses Normal: 0.11000292966484891, Crackle: 0.029335979263140678, Wheeze: 0.020420981386451192, Both: 0.04112852744689837
+*************Metrics******************
+Se: 0.9908506428542891, Sp: 0.9635599158399749, Score: 0.977205279347132
+Normal: 0.9635599158399749, Crackle: 0.9897510980241765, Wheeze: 0.9924299772148049, Both: 0.9904200441421946
+testing......
+Val Accuracy: 0.6094182825484764
+epoch 146, Validation BCE loss: 2.6058876514434814
+Confusion Matrix [[533 167  55  20]
+ [142 232   8   9]
+ [ 53  14  83  56]
+ [ 12   9  19  32]]
+Accuracy Score 0.6094182825484764
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 147 iter 85/86 Train Total loss: 0.03370029479265213
+Train Accuracy: 0.985560226649607
+Classwise_Losses Normal: 0.1104700789811762, Crackle: 0.027439860107795772, Wheeze: 0.03575670341750013, Both: 0.011542143037301555
+*************Metrics******************
+Se: 0.9931456547618254, Sp: 0.9632034631339681, Score: 0.9781745589478967
+Normal: 0.9632034631339681, Crackle: 0.9918879055315718, Wheeze: 0.9911894272400009, Both: 0.9963423554501579
+testing......
+Val Accuracy: 0.6114958448753463
+epoch 147, Validation BCE loss: 2.953418493270874
+Confusion Matrix [[566 138  67   4]
+ [163 211  12   5]
+ [ 76  12  91  27]
+ [ 14  14  29  15]]
+Accuracy Score 0.6114958448753463
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 148 iter 85/86 Train Total loss: 0.03813336044549942
+Train Accuracy: 0.9815390239444343
+Classwise_Losses Normal: 0.13672804443895473, Crackle: 0.027309006819656877, Wheeze: 0.025068086252181907, Both: 0.02824311138391309
+*************Metrics******************
+Se: 0.9905660376639648, Sp: 0.9536275242368267, Score: 0.9720967809503958
+Normal: 0.9536275242368267, Crackle: 0.9914285713577552, Wheeze: 0.9925705794210573, Both: 0.9877521613121217
+testing......
+Val Accuracy: 0.6385041551246537
+epoch 148, Validation BCE loss: 2.7957046031951904
+Confusion Matrix [[624  97  51   3]
+ [176 199  10   6]
+ [ 73  16  82  35]
+ [ 14   9  32  17]]
+Accuracy Score 0.6385041551246537
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 149 iter 85/86 Train Total loss: 0.025765709578990936
+Train Accuracy: 0.989033083531347
+Classwise_Losses Normal: 0.08638914660577496, Crackle: 0.025590894046384267, Wheeze: 0.014754232131347246, Both: 0.017857127858026116
+*************Metrics******************
+Se: 0.9937304074516232, Sp: 0.9743202416182538, Score: 0.9840253245349385
+Normal: 0.9743202416182538, Crackle: 0.9899062724592714, Wheeze: 0.9978245104425074, Both: 0.9934829832734626
+testing......
+Val Accuracy: 0.6246537396121884
+epoch 149, Validation BCE loss: 2.6406264305114746
+Confusion Matrix [[550 168  50   7]
+ [125 252  10   4]
+ [ 65  16  85  40]
+ [ 15  10  32  15]]
+Accuracy Score 0.6246537396121884
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 150 iter 85/86 Train Total loss: 0.03660940006375313
+Train Accuracy: 0.9846463169438859
+Classwise_Losses Normal: 0.1392184206674384, Crackle: 0.03195951473216789, Wheeze: 0.025643346146098138, Both: 0.01585924702856948
+*************Metrics******************
+Se: 0.9929008567202277, Sp: 0.9603174602481734, Score: 0.9766091584842005
+Normal: 0.9603174602481734, Crackle: 0.9912536442426201, Wheeze: 0.9933283913274035, Both: 0.9941348972878201
+testing......
+Val Accuracy: 0.6177285318559557
+epoch 150, Validation BCE loss: 2.694422483444214
+Confusion Matrix [[561 140  68   6]
+ [148 224  13   6]
+ [ 65  20  93  28]
+ [ 12   8  38  14]]
+Accuracy Score 0.6177285318559557
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 151 iter 85/86 Train Total loss: 0.02670161984860897
+Train Accuracy: 0.9873880460610491
+Classwise_Losses Normal: 0.1095895668547701, Crackle: 0.024248597243112197, Wheeze: 0.013601885124563354, Both: 0.012542921623201454
+*************Metrics******************
+Se: 0.9941761707599485, Sp: 0.9666666665950618, Score: 0.9804214186775051
+Normal: 0.9666666665950618, Crackle: 0.9913106443887538, Wheeze: 0.9956140350149406, Both: 0.995626822084867
+testing......
+Val Accuracy: 0.6052631578947368
+epoch 151, Validation BCE loss: 3.0732033252716064
+Confusion Matrix [[553 103 116   3]
+ [149 207  25  10]
+ [ 61  15 104  26]
+ [ 12   8  42  10]]
+Accuracy Score 0.6052631578947368
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 152 iter 85/86 Train Total loss: 0.024754662066698074
+Train Accuracy: 0.9886675196490586
+Classwise_Losses Normal: 0.08730615922328312, Crackle: 0.023933572371387952, Wheeze: 0.013216901637675726, Both: 0.011426401631198081
+*************Metrics******************
+Se: 0.9946731234144306, Sp: 0.9701715137233281, Score: 0.9824223185688794
+Normal: 0.9701715137233281, Crackle: 0.9951287403622041, Wheeze: 0.9940298506720875, Both: 0.9948263118259553
+testing......
+Val Accuracy: 0.6308864265927978
+epoch 152, Validation BCE loss: 2.8684325218200684
+Confusion Matrix [[594 119  60   2]
+ [162 215   7   7]
+ [ 72  18  93  23]
+ [ 20   8  35   9]]
+Accuracy Score 0.6308864265927978
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 153 iter 85/86 Train Total loss: 0.020676568150520325
+Train Accuracy: 0.9901297751782123
+Classwise_Losses Normal: 0.08485259845958122, Crackle: 0.017881413852045506, Wheeze: 0.012128052375958494, Both: 0.009489139838591771
+*************Metrics******************
+Se: 0.9965795259469892, Sp: 0.9709724237321501, Score: 0.9837759748395696
+Normal: 0.9709724237321501, Crackle: 0.9943181817475627, Wheeze: 0.9977460555223332, Both: 0.9977843426146393
+testing......
+Val Accuracy: 0.610803324099723
+epoch 153, Validation BCE loss: 3.045147657394409
+Confusion Matrix [[547 122 101   5]
+ [142 231  14   4]
+ [ 68  18  93  27]
+ [ 17   8  36  11]]
+Accuracy Score 0.610803324099723
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 154 iter 85/86 Train Total loss: 0.02306618168950081
+Train Accuracy: 0.9888503015902028
+Classwise_Losses Normal: 0.08254603709955198, Crackle: 0.025295602481375218, Wheeze: 0.011892478026113557, Both: 0.012948968905713835
+*************Metrics******************
+Se: 0.99463021715929, Sp: 0.9716157204533031, Score: 0.9831229688062966
+Normal: 0.9716157204533031, Crackle: 0.9926090169258974, Wheeze: 0.9949712642963384, Both: 0.9963017750742381
+testing......
+Val Accuracy: 0.6239612188365651
+epoch 154, Validation BCE loss: 2.972766160964966
+Confusion Matrix [[585  98  87   5]
+ [168 205  12   6]
+ [ 65  17 102  22]
+ [ 20   6  37   9]]
+Accuracy Score 0.6239612188365651
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 155 iter 85/86 Train Total loss: 0.03402550145983696
+Train Accuracy: 0.9859257905318953
+Classwise_Losses Normal: 0.09709672815405221, Crackle: 0.03125245913998769, Wheeze: 0.01976154847028595, Both: 0.031115122689369695
+*************Metrics******************
+Se: 0.9927025054006786, Sp: 0.9654411763996, Score: 0.9790718409001393
+Normal: 0.9654411763996, Crackle: 0.9888501741471185, Wheeze: 0.9969418959482461, Both: 0.9926900584069672
+testing......
+Val Accuracy: 0.6447368421052632
+epoch 155, Validation BCE loss: 2.5974314212799072
+Confusion Matrix [[599 116  53   7]
+ [147 224  10  10]
+ [ 66  19  97  24]
+ [ 17   8  36  11]]
+Accuracy Score 0.6447368421052632
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 156 iter 85/86 Train Total loss: 0.019870441406965256
+Train Accuracy: 0.9895814293547797
+Classwise_Losses Normal: 0.0969546437038625, Crackle: 0.012883331820617112, Wheeze: 0.01172610438389039, Both: 0.00868251039261978
+*************Metrics******************
+Se: 0.9970515969781044, Sp: 0.9678800855840201, Score: 0.9824658412810623
+Normal: 0.9678800855840201, Crackle: 0.9964463396591013, Wheeze: 0.9984996248313205, Both: 0.9962406014288542
+testing......
+Val Accuracy: 0.646814404432133
+epoch 156, Validation BCE loss: 3.006247043609619
+Confusion Matrix [[637  70  59   9]
+ [178 194  13   6]
+ [ 75  14  95  22]
+ [ 16   8  40   8]]
+Accuracy Score 0.646814404432133
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 157 iter 85/86 Train Total loss: 0.023090198636054993
+Train Accuracy: 0.989033083531347
+Classwise_Losses Normal: 0.09359092813019788, Crackle: 0.021157668052586558, Wheeze: 0.013611795522747739, Both: 0.011075840709753343
+*************Metrics******************
+Se: 0.9944161203451507, Sp: 0.9726331360227344, Score: 0.9835246281839425
+Normal: 0.9726331360227344, Crackle: 0.9926035502224406, Wheeze: 0.994306049751295, Both: 0.9963289279738379
+testing......
+Val Accuracy: 0.6038781163434903
+epoch 157, Validation BCE loss: 3.3431551456451416
+Confusion Matrix [[598  81  92   4]
+ [188 178  17   8]
+ [ 81  16  89  20]
+ [ 21   7  37   7]]
+Accuracy Score 0.6038781163434903
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 158 iter 85/86 Train Total loss: 0.030601119622588158
+Train Accuracy: 0.9873880460610491
+Classwise_Losses Normal: 0.0968482166199315, Crackle: 0.03370036671385943, Wheeze: 0.020236652935594256, Both: 0.017031590099476798
+*************Metrics******************
+Se: 0.9934545453822943, Sp: 0.9687964338061816, Score: 0.981125489594238
+Normal: 0.9687964338061816, Crackle: 0.9883296862882328, Wheeze: 0.9964080459054305, Both: 0.9955947135832898
+testing......
+Val Accuracy: 0.6246537396121884
+epoch 158, Validation BCE loss: 2.8455605506896973
+Confusion Matrix [[592  95  84   4]
+ [165 207  11   8]
+ [ 82  13  89  22]
+ [ 24   7  27  14]]
+Accuracy Score 0.6246537396121884
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 159 iter 85/86 Train Total loss: 0.026105880737304688
+Train Accuracy: 0.986474136355328
+Classwise_Losses Normal: 0.08605841960312995, Crackle: 0.02285237700314787, Wheeze: 0.018505835117796198, Both: 0.015609101890492208
+*************Metrics******************
+Se: 0.99219512187862, Sp: 0.9693654266251376, Score: 0.9807802742518787
+Normal: 0.9693654266251376, Crackle: 0.9913978493912977, Wheeze: 0.9911634756265713, Both: 0.9940608759469889
+testing......
+Val Accuracy: 0.5837950138504155
+epoch 159, Validation BCE loss: 2.9351272583007812
+Confusion Matrix [[516 140 107  12]
+ [150 218  11  12]
+ [ 70  15  93  28]
+ [ 15   9  32  16]]
+Accuracy Score 0.5837950138504155
+BEST ACCURACY TILL NOW 0.6530470914127424
+---------------------------------------------
+epoch 160 iter 85/86 Train Total loss: 0.02786824107170105
+Train Accuracy: 0.9857430085907511
+Classwise_Losses Normal: 0.10923885917133655, Crackle: 0.01964370515169103, Wheeze: 0.01919551921011174, Both: 0.018472860118486163
+*************Metrics******************
+Se: 0.9919999999278547, Sp: 0.9665676076547871, Score: 0.979283803791321
+Normal: 0.9665676076547871, Crackle: 0.9902475618161856, Wheeze: 0.9934210525589605, Both: 0.9922752808291943
+testing......
+Val Accuracy: 0.6537396121883656
+epoch 160, Validation BCE loss: 2.7536072731018066
+Confusion Matrix [[614 106  52   3]
+ [151 222   9   9]
+ [ 73  17 102  14]
+ [ 16   8  42   6]]
+Accuracy Score 0.6537396121883656
+BEST ACCURACY TILL NOW 0.6530470914127424
+Best ACC achieved...... 0.6537396121883656
+Best Overall ACC achieved...... 0.6537396121883656
+---------------------------------------------
+epoch 161 iter 85/86 Train Total loss: 0.02679542638361454
+Train Accuracy: 0.9875708280021933
+Classwise_Losses Normal: 0.08771172609430754, Crackle: 0.03277083519318853, Wheeze: 0.013415254417499762, Both: 0.012814593264678695
+*************Metrics******************
+Se: 0.9939305655988884, Sp: 0.9681952662005774, Score: 0.9810629158997328
+Normal: 0.9681952662005774, Crackle: 0.9903345724170756, Wheeze: 0.9950530034632472, Both: 0.996320824062081
+testing......
+Val Accuracy: 0.5997229916897507
+epoch 161, Validation BCE loss: 2.879894733428955
+Confusion Matrix [[539 137  91   8]
+ [142 227  10  12]
+ [ 72  15  88  31]
+ [ 17   9  34  12]]
+Accuracy Score 0.5997229916897507
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 162 iter 85/86 Train Total loss: 0.034669309854507446
+Train Accuracy: 0.9842807530615975
+Classwise_Losses Normal: 0.1330882271690108, Crackle: 0.03290224592797753, Wheeze: 0.022634126089415292, Both: 0.010543775563757577
+*************Metrics******************
+Se: 0.9930710219505269, Sp: 0.9594405593734658, Score: 0.9762557906619964
+Normal: 0.9594405593734658, Crackle: 0.9891383055040451, Wheeze: 0.9933726067015191, Both: 0.9969278033028475
+testing......
+Val Accuracy: 0.6343490304709142
+epoch 162, Validation BCE loss: 2.893143653869629
+Confusion Matrix [[595 105  66   9]
+ [158 215   8  10]
+ [ 61  18  91  36]
+ [ 15   6  36  15]]
+Accuracy Score 0.6343490304709142
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 163 iter 85/86 Train Total loss: 0.048194825649261475
+Train Accuracy: 0.9819045878267226
+Classwise_Losses Normal: 0.14478665541912472, Crackle: 0.04496872505607508, Wheeze: 0.028427927210894335, Both: 0.037931926518677016
+*************Metrics******************
+Se: 0.9902676398303942, Sp: 0.9566495223397026, Score: 0.9734585810850485
+Normal: 0.9566495223397026, Crackle: 0.987900355801573, Wheeze: 0.9920347573503234, Both: 0.9909365558163946
+testing......
+Val Accuracy: 0.6225761772853186
+epoch 163, Validation BCE loss: 2.808236598968506
+Confusion Matrix [[574  99  88  14]
+ [159 209  15   8]
+ [ 57  16 100  33]
+ [ 12   8  36  16]]
+Accuracy Score 0.6225761772853186
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 164 iter 85/86 Train Total loss: 0.03869995102286339
+Train Accuracy: 0.9828184975324438
+Classwise_Losses Normal: 0.13456120839883018, Crackle: 0.031277493414918915, Wheeze: 0.03716218405898324, Both: 0.015877018431287988
+*************Metrics******************
+Se: 0.9902818269443431, Sp: 0.9601476014051553, Score: 0.9752147141747491
+Normal: 0.9601476014051553, Crackle: 0.9860139859450341, Wheeze: 0.9896373056262298, Both: 0.9955056179029584
+testing......
+Val Accuracy: 0.6398891966759003
+epoch 164, Validation BCE loss: 3.0294079780578613
+Confusion Matrix [[638  75  58   4]
+ [200 174  13   4]
+ [ 78  13 104  11]
+ [ 20   8  36   8]]
+Accuracy Score 0.6398891966759003
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 165 iter 85/86 Train Total loss: 0.029351817443966866
+Train Accuracy: 0.9859257905318953
+Classwise_Losses Normal: 0.10157332693042286, Crackle: 0.02909339724550909, Wheeze: 0.013264246797814457, Both: 0.02188651852765169
+*************Metrics******************
+Se: 0.9924390243176265, Sp: 0.9664478482154306, Score: 0.9794434362665285
+Normal: 0.9664478482154306, Crackle: 0.990545454473415, Wheeze: 0.995645863498139, Both: 0.9910913139576029
+testing......
+Val Accuracy: 0.6371191135734072
+epoch 165, Validation BCE loss: 2.803631067276001
+Confusion Matrix [[609  99  61   6]
+ [173 205   7   6]
+ [ 71  19  92  24]
+ [ 21   6  31  14]]
+Accuracy Score 0.6371191135734072
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 166 iter 85/86 Train Total loss: 0.02453702501952648
+Train Accuracy: 0.9879363918844818
+Classwise_Losses Normal: 0.10843544385233529, Crackle: 0.022417235083864402, Wheeze: 0.011158259702505348, Both: 0.011218609169932451
+*************Metrics******************
+Se: 0.9948717947989106, Sp: 0.9672965115576093, Score: 0.9810841531782599
+Normal: 0.9672965115576093, Crackle: 0.9913916785515502, Wheeze: 0.997030437936375, Both: 0.9963072377403024
+testing......
+Val Accuracy: 0.646814404432133
+epoch 166, Validation BCE loss: 2.8569753170013428
+Confusion Matrix [[608  81  79   7]
+ [169 204  12   6]
+ [ 61  16 108  21]
+ [ 16   7  35  14]]
+Accuracy Score 0.646814404432133
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 167 iter 85/86 Train Total loss: 0.027203615754842758
+Train Accuracy: 0.9872052641199048
+Classwise_Losses Normal: 0.09547395733969005, Crackle: 0.02554800241254104, Wheeze: 0.02525745939931755, Both: 0.006814367049300925
+*************Metrics******************
+Se: 0.9940667489992041, Sp: 0.967741935416007, Score: 0.9809043422076056
+Normal: 0.967741935416007, Crackle: 0.9914860680347148, Wheeze: 0.9929478137522605, Both: 0.9977528089140261
+testing......
+Val Accuracy: 0.6385041551246537
+epoch 167, Validation BCE loss: 3.014901638031006
+Confusion Matrix [[622  76  73   4]
+ [188 191  10   2]
+ [ 72  15 101  18]
+ [ 17   3  44   8]]
+Accuracy Score 0.6385041551246537
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 168 iter 85/86 Train Total loss: 0.01766267605125904
+Train Accuracy: 0.9921403765307987
+Classwise_Losses Normal: 0.06790604419171015, Crackle: 0.016681733981242, Wheeze: 0.009529677332267268, Both: 0.011057481940653856
+*************Metrics******************
+Se: 0.9964028776261582, Sp: 0.9784780936988104, Score: 0.9874404856624843
+Normal: 0.9784780936988104, Crackle: 0.9941176469857268, Wheeze: 0.9972105996515196, Both: 0.9978197673693446
+testing......
+Val Accuracy: 0.6094182825484764
+epoch 168, Validation BCE loss: 2.945608139038086
+Confusion Matrix [[550 140  82   3]
+ [148 228  10   5]
+ [ 69  20  94  23]
+ [ 18   8  38   8]]
+Accuracy Score 0.6094182825484764
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 169 iter 85/86 Train Total loss: 0.018301403149962425
+Train Accuracy: 0.9914092487662218
+Classwise_Losses Normal: 0.06010619204059014, Crackle: 0.01539347977646625, Wheeze: 0.015992346993253984, Both: 0.010054276163166715
+*************Metrics******************
+Se: 0.9954370796593106, Sp: 0.9785768935747073, Score: 0.987006986617009
+Normal: 0.9785768935747073, Crackle: 0.994056463521987, Wheeze: 0.9949964259474628, Both: 0.9971811133899098
+testing......
+Val Accuracy: 0.6170360110803325
+epoch 169, Validation BCE loss: 2.9926187992095947
+Confusion Matrix [[575 117  77   6]
+ [155 221  11   4]
+ [ 83  16  87  20]
+ [ 19   6  39   8]]
+Accuracy Score 0.6170360110803325
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 170 iter 85/86 Train Total loss: 0.01635206677019596
+Train Accuracy: 0.9919575945896545
+Classwise_Losses Normal: 0.06937767686507194, Crackle: 0.017583543323736732, Wheeze: 0.006894156031179693, Both: 0.007020239177893282
+*************Metrics******************
+Se: 0.9968454257949397, Sp: 0.977037036964664, Score: 0.9869412313798018
+Normal: 0.977037036964664, Crackle: 0.996279761830634, Wheeze: 0.9970695969965517, Both: 0.9971671387395775
+testing......
+Val Accuracy: 0.6412742382271468
+epoch 170, Validation BCE loss: 2.791940689086914
+Confusion Matrix [[597 107  62   9]
+ [147 223  13   8]
+ [ 72  12  94  28]
+ [ 17   5  38  12]]
+Accuracy Score 0.6412742382271468
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 171 iter 85/86 Train Total loss: 0.02432779036462307
+Train Accuracy: 0.9892158654724913
+Classwise_Losses Normal: 0.08762604623128366, Crackle: 0.022393605177911287, Wheeze: 0.017018103707170995, Both: 0.012225274473908265
+*************Metrics******************
+Se: 0.9947013486757201, Sp: 0.9719484457185787, Score: 0.9833248971971494
+Normal: 0.9719484457185787, Crackle: 0.992329149163715, Wheeze: 0.994074074000439, Both: 0.9978070174709206
+testing......
+Val Accuracy: 0.6419667590027701
+epoch 171, Validation BCE loss: 2.6381967067718506
+Confusion Matrix [[584 123  62   6]
+ [137 240   8   6]
+ [ 77  18  86  25]
+ [ 19   6  30  17]]
+Accuracy Score 0.6419667590027701
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 172 iter 85/86 Train Total loss: 0.020852601155638695
+Train Accuracy: 0.9901297751782123
+Classwise_Losses Normal: 0.09344387870402508, Crackle: 0.019068389813198326, Wheeze: 0.011047230821381916, Both: 0.00975496884261343
+*************Metrics******************
+Se: 0.9968697326513218, Sp: 0.9688922609280053, Score: 0.9828809967896636
+Normal: 0.9688922609280053, Crackle: 0.9963045084259938, Wheeze: 0.9964488635655933, Both: 0.9978448275145227
+testing......
+Val Accuracy: 0.6426592797783933
+epoch 172, Validation BCE loss: 2.891486406326294
+Confusion Matrix [[610 109  49   7]
+ [155 223   7   6]
+ [ 69  21  83  33]
+ [ 19   6  35  12]]
+Accuracy Score 0.6426592797783933
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 173 iter 85/86 Train Total loss: 0.022530682384967804
+Train Accuracy: 0.9908609029427892
+Classwise_Losses Normal: 0.0738564552534348, Crackle: 0.02005648864306368, Wheeze: 0.01819908221423783, Both: 0.010832882370677279
+*************Metrics******************
+Se: 0.9948730468021334, Sp: 0.9789090908378977, Score: 0.9868910688200155
+Normal: 0.9789090908378977, Crackle: 0.9933085501120218, Wheeze: 0.9943741208864717, Both: 0.9969902181341619
+testing......
+Val Accuracy: 0.5796398891966759
+epoch 173, Validation BCE loss: 3.1652486324310303
+Confusion Matrix [[499 183  88   5]
+ [118 254  11   8]
+ [ 76  34  70  26]
+ [ 18  14  26  14]]
+Accuracy Score 0.5796398891966759
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 174 iter 85/86 Train Total loss: 0.019269268959760666
+Train Accuracy: 0.9912264668250776
+Classwise_Losses Normal: 0.09022109148834001, Crackle: 0.01569749786944554, Wheeze: 0.013158956844266108, Both: 0.00595647432866652
+*************Metrics******************
+Se: 0.9963539133935572, Sp: 0.9756816506281739, Score: 0.9860177820108655
+Normal: 0.9756816506281739, Crackle: 0.9954441912683795, Wheeze: 0.9949348769178775, Both: 0.9985865723675912
+testing......
+Val Accuracy: 0.6488919667590027
+epoch 174, Validation BCE loss: 2.948044776916504
+Confusion Matrix [[612 101  56   6]
+ [150 221  12   8]
+ [ 79  18  92  17]
+ [ 19   7  34  12]]
+Accuracy Score 0.6488919667590027
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 175 iter 85/86 Train Total loss: 0.020761877298355103
+Train Accuracy: 0.9917748126485103
+Classwise_Losses Normal: 0.06834366942783059, Crackle: 0.02147491261955175, Wheeze: 0.013728385189714849, Both: 0.011250891434494797
+*************Metrics******************
+Se: 0.995845552224156, Sp: 0.9796954314010374, Score: 0.9877704918125967
+Normal: 0.9796954314010374, Crackle: 0.9956011729475367, Wheeze: 0.994875548975485, Both: 0.9970631423643861
+testing......
+Val Accuracy: 0.6246537396121884
+epoch 175, Validation BCE loss: 2.923175096511841
+Confusion Matrix [[535 175  55  10]
+ [114 262   7   8]
+ [ 63  27  74  42]
+ [ 12  14  15  31]]
+Accuracy Score 0.6246537396121884
+BEST ACCURACY TILL NOW 0.6537396121883656
+---------------------------------------------
+epoch 176 iter 85/86 Train Total loss: 0.021120578050613403
+Train Accuracy: 0.9897642112959238
+Classwise_Losses Normal: 0.07682877548069436, Crackle: 0.01768970008686532, Wheeze: 0.012871364274123663, Both: 0.014013443709950937
+*************Metrics******************
+Se: 0.9958536584637181, Sp: 0.9715536104324178, Score: 0.983703634448068
+Normal: 0.9715536104324178, Crackle: 0.9942979329298435, Wheeze: 0.9955947135832898, Both: 0.9977528089140261
+testing......
+Val Accuracy: 0.6682825484764543
+epoch 176, Validation BCE loss: 2.8056366443634033
+Confusion Matrix [[646  76  48   5]
+ [158 210  14   9]
+ [ 73  13  93  27]
+ [ 14   9  33  16]]
+Accuracy Score 0.6682825484764543
+BEST ACCURACY TILL NOW 0.6537396121883656
+Best ACC achieved...... 0.6682825484764543
+Best Overall ACC achieved...... 0.6682825484764543
+---------------------------------------------
+epoch 177 iter 85/86 Train Total loss: 0.02045532874763012
+Train Accuracy: 0.9925059404130872
+Classwise_Losses Normal: 0.058768500160547146, Crackle: 0.01912028506643313, Wheeze: 0.008988998468101252, Both: 0.01974313935205879
+*************Metrics******************
+Se: 0.9960975609027247, Sp: 0.9817651348663922, Score: 0.9889313478845585
+Normal: 0.9817651348663922, Crackle: 0.995416348281481, Wheeze: 0.9971711456154759, Both: 0.9956427014527494
+testing......
+Val Accuracy: 0.6329639889196675
+epoch 177, Validation BCE loss: 2.8701798915863037
+Confusion Matrix [[601 113  53   8]
+ [156 219  10   6]
+ [ 86  15  75  30]
+ [ 20   9  24  19]]
+Accuracy Score 0.6329639889196675
+BEST ACCURACY TILL NOW 0.6682825484764543
+---------------------------------------------
+epoch 178 iter 85/86 Train Total loss: 0.020179979503154755
+Train Accuracy: 0.9908609029427892
+Classwise_Losses Normal: 0.07425118991069322, Crackle: 0.027815431795382428, Wheeze: 0.005405626407284058, Both: 0.007764766560616747
+*************Metrics******************
+Se: 0.9963645176202354, Sp: 0.9739776950948716, Score: 0.9851711063575534
+Normal: 0.9739776950948716, Crackle: 0.9927219795492925, Wheeze: 0.9985283295806824, Both: 0.997846374659164
+testing......
+Val Accuracy: 0.6329639889196675
+epoch 178, Validation BCE loss: 3.04439640045166
+Confusion Matrix [[569 144  53   9]
+ [130 248   8   5]
+ [ 65  29  80  32]
+ [ 15  12  28  17]]
+Accuracy Score 0.6329639889196675
+BEST ACCURACY TILL NOW 0.6682825484764543
+---------------------------------------------
+epoch 179 iter 85/86 Train Total loss: 0.02210194244980812
+Train Accuracy: 0.9897642112959238
+Classwise_Losses Normal: 0.07607780275058772, Crackle: 0.015853639475227114, Wheeze: 0.013425439165883984, Both: 0.01813201261623559
+*************Metrics******************
+Se: 0.9950944321073024, Sp: 0.9741750357981224, Score: 0.9846347339527124
+Normal: 0.9741750357981224, Crackle: 0.9947722179988969, Wheeze: 0.9941860464393761, Both: 0.9963289279738379
+testing......
+Val Accuracy: 0.6398891966759003
+epoch 179, Validation BCE loss: 2.645282506942749
+Confusion Matrix [[601 107  53  14]
+ [154 213  11  13]
+ [ 70  15  90  31]
+ [ 14   5  33  20]]
+Accuracy Score 0.6398891966759003
+BEST ACCURACY TILL NOW 0.6682825484764543
+---------------------------------------------
+epoch 180 iter 85/86 Train Total loss: 0.025290101766586304
+Train Accuracy: 0.9892158654724913
+Classwise_Losses Normal: 0.07130568697355946, Crackle: 0.0284400156699037, Wheeze: 0.015296374853115165, Both: 0.016250545563671816
+*************Metrics******************
+Se: 0.9938378111170444, Sp: 0.9759547382619552, Score: 0.9848962746894998
+Normal: 0.9759547382619552, Crackle: 0.9917479369098465, Wheeze: 0.9940608759469889, Both: 0.9956427014527494
+testing......
+Val Accuracy: 0.6592797783933518
+epoch 180, Validation BCE loss: 2.876011610031128
+Confusion Matrix [[626  94  51   4]
+ [155 220  11   5]
+ [ 79  14  97  16]
+ [ 23   4  36   9]]
+Accuracy Score 0.6592797783933518
+BEST ACCURACY TILL NOW 0.6682825484764543
+---------------------------------------------
+epoch 181 iter 85/86 Train Total loss: 0.019740864634513855
+Train Accuracy: 0.9897642112959238
+Classwise_Losses Normal: 0.0769284405112819, Crackle: 0.024277069283950962, Wheeze: 0.005673303817598092, Both: 0.009360616674812996
+*************Metrics******************
+Se: 0.9950726779259618, Sp: 0.9745042492227689, Score: 0.9847884635743653
+Normal: 0.9745042492227689, Crackle: 0.990997749363016, Wheeze: 0.9969992497376596, Both: 0.9971284995694812
+testing......
+Val Accuracy: 0.628808864265928
+epoch 181, Validation BCE loss: 2.9638569355010986
+Confusion Matrix [[565 149  49  12]
+ [130 243  10   8]
+ [ 69  25  81  31]
+ [ 18  12  23  19]]
+Accuracy Score 0.628808864265928
+BEST ACCURACY TILL NOW 0.6682825484764543
+---------------------------------------------
+epoch 182 iter 85/86 Train Total loss: 0.017342859879136086
+Train Accuracy: 0.9928715042953755
+Classwise_Losses Normal: 0.05369777641087209, Crackle: 0.021961663765332432, Wheeze: 0.008846121560164994, Both: 0.007322236257877896
+*************Metrics******************
+Se: 0.9954139511709815, Sp: 0.9849397589619775, Score: 0.9901768550664796
+Normal: 0.9849397589619775, Crackle: 0.9927219795492925, Wheeze: 0.9955752211655181, Both: 0.9978768576788482
+testing......
+Val Accuracy: 0.6703601108033241
+epoch 182, Validation BCE loss: 2.6976375579833984
+Confusion Matrix [[618 110  40   7]
+ [136 242   8   5]
+ [ 74  21  96  15]
+ [ 15  10  35  12]]
+Accuracy Score 0.6703601108033241
+BEST ACCURACY TILL NOW 0.6682825484764543
+Best ACC achieved...... 0.6703601108033241
+Best Overall ACC achieved...... 0.6703601108033241
+---------------------------------------------
+epoch 183 iter 85/86 Train Total loss: 0.02713862992823124
+Train Accuracy: 0.9873880460610491
+Classwise_Losses Normal: 0.12347054978479031, Crackle: 0.027927294149074654, Wheeze: 0.01123560392504012, Both: 0.00880461790261101
+*************Metrics******************
+Se: 0.9949016750914129, Sp: 0.9644970413487799, Score: 0.9796993582200964
+Normal: 0.9644970413487799, Crackle: 0.9897435896710811, Wheeze: 0.9978571427858675, Both: 0.9970457901774709
+testing......
+Val Accuracy: 0.6613573407202216
+epoch 183, Validation BCE loss: 2.8378188610076904
+Confusion Matrix [[649  74  46   6]
+ [172 205   9   5]
+ [ 80  12  90  24]
+ [ 17   7  37  11]]
+Accuracy Score 0.6613573407202216
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 184 iter 85/86 Train Total loss: 0.024623945355415344
+Train Accuracy: 0.9893986474136355
+Classwise_Losses Normal: 0.08744739892478624, Crackle: 0.023133955193241205, Wheeze: 0.01207677105260746, Both: 0.017052586686673494
+*************Metrics******************
+Se: 0.9946731234144306, Sp: 0.9731543623435381, Score: 0.9839137428789844
+Normal: 0.9731543623435381, Crackle: 0.9921819473353105, Wheeze: 0.9970781591674889, Both: 0.9948301328659653
+testing......
+Val Accuracy: 0.639196675900277
+epoch 184, Validation BCE loss: 2.880141258239746
+Confusion Matrix [[588 127  51   9]
+ [139 240   6   6]
+ [ 81  24  74  27]
+ [ 14  16  21  21]]
+Accuracy Score 0.639196675900277
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 185 iter 85/86 Train Total loss: 0.017767438665032387
+Train Accuracy: 0.9919575945896545
+Classwise_Losses Normal: 0.05874679104427995, Crackle: 0.014143214246679995, Wheeze: 0.010158788004397906, Both: 0.013546386618871495
+*************Metrics******************
+Se: 0.9968323586015961, Sp: 0.9773226041713737, Score: 0.9870774813864849
+Normal: 0.9773226041713737, Crackle: 0.9965132495818332, Wheeze: 0.9969969969221475, Both: 0.9970104633036615
+testing......
+Val Accuracy: 0.6378116343490304
+epoch 185, Validation BCE loss: 2.8800623416900635
+Confusion Matrix [[610 126  30   9]
+ [150 226   5  10]
+ [ 88  22  73  23]
+ [ 19  13  28  12]]
+Accuracy Score 0.6378116343490304
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 186 iter 85/86 Train Total loss: 0.024664880707859993
+Train Accuracy: 0.9872052641199048
+Classwise_Losses Normal: 0.10360673064297636, Crackle: 0.021065183502921848, Wheeze: 0.021174664565998407, Both: 0.005016663632090159
+*************Metrics******************
+Se: 0.9936893203159936, Sp: 0.9674315321267631, Score: 0.9805604262213783
+Normal: 0.9674315321267631, Crackle: 0.9913232103404684, Wheeze: 0.9921985814899151, Both: 0.9977392614169
+testing......
+Val Accuracy: 0.6481994459833795
+epoch 186, Validation BCE loss: 2.7228314876556396
+Confusion Matrix [[602 107  52  14]
+ [147 229  11   4]
+ [ 74  17  90  25]
+ [ 17   6  34  15]]
+Accuracy Score 0.6481994459833795
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 187 iter 85/86 Train Total loss: 0.02739856392145157
+Train Accuracy: 0.9872052641199048
+Classwise_Losses Normal: 0.09680673649779302, Crackle: 0.02967580379603037, Wheeze: 0.007959853575062707, Both: 0.01866521946709383
+*************Metrics******************
+Se: 0.9928991184383278, Sp: 0.9704397980554839, Score: 0.9816694582469059
+Normal: 0.9704397980554839, Crackle: 0.9868613137965796, Wheeze: 0.9955357142116418, Both: 0.9963503648907774
+testing......
+Val Accuracy: 0.6565096952908587
+epoch 187, Validation BCE loss: 2.8876595497131348
+Confusion Matrix [[627  76  62  10]
+ [164 209  13   5]
+ [ 63  14 102  27]
+ [ 18   8  36  10]]
+Accuracy Score 0.6565096952908587
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 188 iter 85/86 Train Total loss: 0.014321843162178993
+Train Accuracy: 0.9928715042953755
+Classwise_Losses Normal: 0.06209463778437969, Crackle: 0.0157570265053802, Wheeze: 0.003966051664759875, Both: 0.005278788458665344
+*************Metrics******************
+Se: 0.9973059024493776, Sp: 0.9798270892665831, Score: 0.9885664958579803
+Normal: 0.9798270892665831, Crackle: 0.995087719228415, Wheeze: 0.998515218931068, Both: 0.9984744469108716
+testing......
+Val Accuracy: 0.6488919667590027
+epoch 188, Validation BCE loss: 2.943502902984619
+Confusion Matrix [[633  81  50  11]
+ [179 198   9   5]
+ [ 66  16  98  26]
+ [ 18   6  40   8]]
+Accuracy Score 0.6488919667590027
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 189 iter 85/86 Train Total loss: 0.01474061794579029
+Train Accuracy: 0.9930542862365198
+Classwise_Losses Normal: 0.0640007247037092, Crackle: 0.014110885719502097, Wheeze: 0.00579877621692569, Both: 0.007389308950560206
+*************Metrics******************
+Se: 0.9970609844969096, Sp: 0.9812680114566811, Score: 0.9891644979767953
+Normal: 0.9812680114566811, Crackle: 0.9949640287053984, Wheeze: 0.9985569984849527, Both: 0.9977046671004053
+testing......
+Val Accuracy: 0.6419667590027701
+epoch 189, Validation BCE loss: 2.861605405807495
+Confusion Matrix [[595 107  69   4]
+ [150 226  11   4]
+ [ 71  21  95  19]
+ [ 20   7  34  11]]
+Accuracy Score 0.6419667590027701
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 190 iter 85/86 Train Total loss: 0.019893597811460495
+Train Accuracy: 0.9919575945896545
+Classwise_Losses Normal: 0.06866841996334744, Crackle: 0.019518841811211628, Wheeze: 0.007826701048354123, Both: 0.011325529181666238
+*************Metrics******************
+Se: 0.9965861984152705, Sp: 0.9781021897096277, Score: 0.9873441940624491
+Normal: 0.9781021897096277, Crackle: 0.9939439817567038, Wheeze: 0.9985805535132307, Both: 0.9970824215173537
+testing......
+Val Accuracy: 0.6461218836565097
+epoch 190, Validation BCE loss: 2.819922685623169
+Confusion Matrix [[606 104  59   6]
+ [156 224   7   4]
+ [ 74  22  86  24]
+ [ 21   9  25  17]]
+Accuracy Score 0.6461218836565097
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 191 iter 85/86 Train Total loss: 0.012092916294932365
+Train Accuracy: 0.9946993237068177
+Classwise_Losses Normal: 0.05072758131707606, Crackle: 0.013410476831600139, Wheeze: 0.005767245997085211, Both: 0.004463929425073632
+*************Metrics******************
+Se: 0.9975839574053456, Sp: 0.9857357356617317, Score: 0.9916598465335387
+Normal: 0.9857357356617317, Crackle: 0.9957865167840039, Wheeze: 0.9978102189052694, Both: 0.9992565055019141
+testing......
+Val Accuracy: 0.6274238227146814
+epoch 191, Validation BCE loss: 2.7149674892425537
+Confusion Matrix [[570 118  79   8]
+ [146 222   8  15]
+ [ 61  20  99  26]
+ [ 14   9  34  15]]
+Accuracy Score 0.6274238227146814
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 192 iter 85/86 Train Total loss: 0.01432296447455883
+Train Accuracy: 0.9926887223542313
+Classwise_Losses Normal: 0.061900519471657346, Crackle: 0.010700668362800413, Wheeze: 0.008957958313768236, Both: 0.006904015117965668
+*************Metrics******************
+Se: 0.9965761799219925, Sp: 0.9811866858913759, Score: 0.9888814329066842
+Normal: 0.9811866858913759, Crackle: 0.9948717947989106, Wheeze: 0.9971077367319519, Both: 0.9977628634602713
+testing......
+Val Accuracy: 0.6461218836565097
+epoch 192, Validation BCE loss: 2.8504867553710938
+Confusion Matrix [[605  98  61  11]
+ [158 216   8   9]
+ [ 61  20  99  26]
+ [ 18   6  35  13]]
+Accuracy Score 0.6461218836565097
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 193 iter 85/86 Train Total loss: 0.020133381709456444
+Train Accuracy: 0.9901297751782123
+Classwise_Losses Normal: 0.07062896761657955, Crackle: 0.024814486360874497, Wheeze: 0.008446256679486936, Both: 0.00971231268197266
+*************Metrics******************
+Se: 0.9958435207093514, Sp: 0.9732078203495144, Score: 0.984525670529433
+Normal: 0.9732078203495144, Crackle: 0.9926686216281035, Wheeze: 0.9985673351720225, Both: 0.9962406014288542
+testing......
+Val Accuracy: 0.6440443213296398
+epoch 193, Validation BCE loss: 2.9034271240234375
+Confusion Matrix [[611  86  67  11]
+ [164 203   9  15]
+ [ 64  15 103  24]
+ [ 11   7  41  13]]
+Accuracy Score 0.6440443213296398
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 194 iter 85/86 Train Total loss: 0.01947685331106186
+Train Accuracy: 0.9901297751782123
+Classwise_Losses Normal: 0.0726321059628924, Crackle: 0.021231344732229828, Wheeze: 0.012438124487309033, Both: 0.005174470894050729
+*************Metrics******************
+Se: 0.9948792976594822, Sp: 0.9759124086878898, Score: 0.9853958531736859
+Normal: 0.9759124086878898, Crackle: 0.9886685551707742, Wheeze: 0.9970802918980235, Both: 0.9992418498105201
+testing......
+Val Accuracy: 0.6073407202216067
+epoch 194, Validation BCE loss: 2.913576602935791
+Confusion Matrix [[515 187  62  11]
+ [117 256  10   8]
+ [ 55  23  92  36]
+ [ 12  11  35  14]]
+Accuracy Score 0.6073407202216067
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 195 iter 85/86 Train Total loss: 0.026338281109929085
+Train Accuracy: 0.986474136355328
+Classwise_Losses Normal: 0.09915902600284238, Crackle: 0.025942931192651363, Wheeze: 0.01052768998914861, Both: 0.01858286283002146
+*************Metrics******************
+Se: 0.9939024389516657, Sp: 0.9642596644081504, Score: 0.979081051679908
+Normal: 0.9642596644081504, Crackle: 0.990377498076212, Wheeze: 0.9963072377403024, Both: 0.9949820787817218
+testing......
+Val Accuracy: 0.6073407202216067
+epoch 195, Validation BCE loss: 2.902618646621704
+Confusion Matrix [[532 176  61   6]
+ [137 241   5   8]
+ [ 65  21  89  31]
+ [ 17   6  34  15]]
+Accuracy Score 0.6073407202216067
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 196 iter 85/86 Train Total loss: 0.016449907794594765
+Train Accuracy: 0.9912264668250776
+Classwise_Losses Normal: 0.07086294883149448, Crackle: 0.018205379639158296, Wheeze: 0.005448152712855687, Both: 0.00839711605855642
+*************Metrics******************
+Se: 0.9963556850585747, Sp: 0.9756457563855613, Score: 0.986000720722068
+Normal: 0.9756457563855613, Crackle: 0.9939984995503378, Wheeze: 0.9985601151188943, Both: 0.9964131993546333
+testing......
+Val Accuracy: 0.6301939058171745
+epoch 196, Validation BCE loss: 2.824941873550415
+Confusion Matrix [[564 141  67   3]
+ [141 234   9   7]
+ [ 73  15  93  25]
+ [ 17   9  27  19]]
+Accuracy Score 0.6301939058171745
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 197 iter 85/86 Train Total loss: 0.012059188447892666
+Train Accuracy: 0.9945165417656735
+Classwise_Losses Normal: 0.05539346279147862, Crackle: 0.010084675520083745, Wheeze: 0.007558964730733055, Both: 0.004250241538637783
+*************Metrics******************
+Se: 0.9987772070678326, Sp: 0.9819102748927707, Score: 0.9903437409803016
+Normal: 0.9819102748927707, Crackle: 0.9970326408755912, Wheeze: 0.999258710081597, Both: 0.999999999928161
+testing......
+Val Accuracy: 0.6613573407202216
+epoch 197, Validation BCE loss: 3.0311853885650635
+Confusion Matrix [[657  64  50   4]
+ [178 197  11   5]
+ [ 84  12  90  20]
+ [ 22   4  35  11]]
+Accuracy Score 0.6613573407202216
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 198 iter 85/86 Train Total loss: 0.023255594074726105
+Train Accuracy: 0.9899469932370681
+Classwise_Losses Normal: 0.07084384030625511, Crackle: 0.0213272579821965, Wheeze: 0.01709109369527162, Both: 0.013062230865155388
+*************Metrics******************
+Se: 0.9945826150459556, Sp: 0.976595744611589, Score: 0.9855891798287724
+Normal: 0.976595744611589, Crackle: 0.9918699186258781, Wheeze: 0.9948529411033198, Both: 0.9970326408755912
+testing......
+Val Accuracy: 0.6426592797783933
+epoch 198, Validation BCE loss: 2.9165985584259033
+Confusion Matrix [[610 117  44   4]
+ [153 224   7   7]
+ [ 78  21  86  21]
+ [ 22   7  35   8]]
+Accuracy Score 0.6426592797783933
+BEST ACCURACY TILL NOW 0.6703601108033241
+---------------------------------------------
+epoch 199 iter 85/86 Train Total loss: 0.024068797007203102
+Train Accuracy: 0.9884847377079143
+Classwise_Losses Normal: 0.09594509286461404, Crackle: 0.026624309292287412, Wheeze: 0.010249330071447812, Both: 0.010835535371533596
+*************Metrics******************
+Se: 0.995845552224156, Sp: 0.966642494491179, Score: 0.9812440233576676
+Normal: 0.966642494491179, Crackle: 0.9926686216281035, Wheeze: 0.9977859777861414, Both: 0.9970866714495932
+testing......
+Val Accuracy: 0.6371191135734072
+epoch 199, Validation BCE loss: 3.0212223529815674
+Confusion Matrix [[606 107  53   9]
+ [150 221  11   9]
+ [ 78  15  83  30]
+ [ 19   7  36  10]]
+Accuracy Score 0.6371191135734072
+BEST ACCURACY TILL NOW 0.6703601108033241

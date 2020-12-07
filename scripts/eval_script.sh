@@ -1,0 +1,1 @@
+python eval.py --data_dir ../data/icbhi_dataset/audio_text_data/ --folds_file ../data/patient_list_foldwise.txt --batch_size 64 --num_worker 4 --test_fold 4 --checkpoint models/ckpt_best.pkl --steth_id -1
