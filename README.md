@@ -1,5 +1,5 @@
 # RespireNet 2020
-This is the official implementation of the work **[RespireNet](https://arxiv.org/abs/2011.00196)** which is under-review at **[ICASSP 2021](https://2021.ieeeicassp.org/)**.
+This is the official implementation of the work **[RespireNet](https://arxiv.org/abs/2011.00196)**.
 
 ## Dependencies:
 
